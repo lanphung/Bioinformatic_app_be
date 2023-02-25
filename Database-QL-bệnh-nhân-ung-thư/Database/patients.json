@@ -1,0 +1,313 @@
+[{
+  "_id": {
+    "$oid": "61d6691ba1eda8382830f5e7"
+  },
+  "name": "benh nhan 1",
+  "sams": [
+    "CHP2-UT08VIET-FFPE-S-69"
+  ],
+  "gender": "male",
+  "age": "29",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1641441563232"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1641441563232"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "61d6691ba1eda8382830f5e8"
+  },
+  "name": "benh nhan 2",
+  "sams": [
+    "CHP2-UT09THANG-FFPE-S-70"
+  ],
+  "gender": "male",
+  "age": "25",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1641441563281"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1641441563281"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "61dda766ad344f4756120a03"
+  },
+  "name": "TRẦN QUỐC VIỆT",
+  "sams": [
+    "CHP2-UT08VIET-FFPE-S-69"
+  ],
+  "gender": "male",
+  "age": "29",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1641916262770"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1641916262770"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "61dda766ad344f4756120a04"
+  },
+  "name": "TRẦN QUỐC VIỆT THẮNG",
+  "sams": [
+    "CHP2-UT09THANG-FFPE-S-70"
+  ],
+  "gender": "male",
+  "age": "25",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1641916262777"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1641916262777"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "61f25324a1eda8382830f5ea"
+  },
+  "name": "Tran Van A",
+  "sams": [
+    "HG005_on_gen"
+  ],
+  "gender": "male",
+  "age": "29",
+  "birthPlace": "-",
+  "nationality": "-",
+  "patient_phone": "-",
+  "address": "-",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1643270948868"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1643270948868"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "61fce0a9a1eda8382830f5ef"
+  },
+  "name": "Nguyen Van B",
+  "sams": [
+    "HCC1395_FD"
+  ],
+  "gender": "male",
+  "age": "35",
+  "birthPlace": "-",
+  "nationality": "-",
+  "patient_phone": "-",
+  "address": "-",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1643962537945"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1643962537945"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6253dfbdf14ced0b4f4e6a3c"
+  },
+  "name": "Nguyen Van A",
+  "sams": [
+    "HCC1395_FD1"
+  ],
+  "gender": "male",
+  "age": "35",
+  "birthPlace": "-",
+  "nationality": "-",
+  "patient_phone": "-",
+  "address": "-",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1649663933151"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1649663933151"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "633518cdcb22521f946c9d68"
+  },
+  "name": "NGUYỄN HOÀI NAM",
+  "sams": [
+    "CHP2-UT52-PB-S-81"
+  ],
+  "gender": "male",
+  "age": "47",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "0912110832",
+  "address": "63 Nguyễn Công Hoan, Ngọc Khánh, Ba Đình, Hà Nội",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1664424141414"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1664424141414"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "633518cdcb22521f946c9d69"
+  },
+  "name": "ĐÀO XUÂN THƠ",
+  "sams": [
+    "CHP2-UT55-FFPE-S-82"
+  ],
+  "gender": "female",
+  "age": "1957",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1664424141419"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1664424141419"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "633aee5ad26f7c5d212335d4"
+  },
+  "name": "Trần Khắc Tuấn",
+  "sams": [
+    "CHP2-UT62-FFPE-S-94"
+  ],
+  "gender": "male",
+  "age": "74",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1664806490801"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1664806490801"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63526aa8ec919d0c3f58bb63"
+  },
+  "name": "NGUYỄN VĂN DƯƠNG",
+  "sams": [
+    "CHP2-UT63-FFPE-S-95"
+  ],
+  "gender": "male",
+  "age": "41",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "Trung Văn - Nam Từ Liêm - Hà Nội",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1666345640321"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1666345640321"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6353706eec919d0c3f58bb65"
+  },
+  "name": "NGUYỄN KHẢ GỐC",
+  "sams": [
+    "CHP2-UT64-FFPE-S-96"
+  ],
+  "gender": "male",
+  "age": "77T",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1666412654062"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1666412654062"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "639afd0f9e920c58fb7ad893"
+  },
+  "name": "MAI THẾ BÌNH",
+  "sams": [
+    "CHP2-UT66-PB-S-91"
+  ],
+  "gender": "male",
+  "age": "1962",
+  "birthPlace": "",
+  "nationality": "",
+  "patient_phone": "",
+  "address": "Hà Nội",
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1671101711616"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1671101711616"
+    }
+  }
+}]

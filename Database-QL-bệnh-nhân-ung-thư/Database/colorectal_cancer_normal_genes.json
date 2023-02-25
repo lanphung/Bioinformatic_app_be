@@ -1,0 +1,5363 @@
+[{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2de"
+  },
+  "gene_name": "BAP1_ENST00000615113",
+  "mutated_samples": "0",
+  "samples_tested": "4268"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2df"
+  },
+  "gene_name": "MYC_ENST00000641252",
+  "mutated_samples": "0",
+  "samples_tested": "4262"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e0"
+  },
+  "gene_name": "MGA_ENST00000619521",
+  "mutated_samples": "0",
+  "samples_tested": "3925"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e1"
+  },
+  "gene_name": "CRBN_ENST00000629101",
+  "mutated_samples": "0",
+  "samples_tested": "2786"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e2"
+  },
+  "gene_name": "HIST2H3C",
+  "mutated_samples": "0",
+  "samples_tested": "2784"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e3"
+  },
+  "gene_name": "BRD2_ENST00000496118",
+  "mutated_samples": "0",
+  "samples_tested": "2681"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e4"
+  },
+  "gene_name": "ZNF75A_ENST00000612186",
+  "mutated_samples": "0",
+  "samples_tested": "2677"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e5"
+  },
+  "gene_name": "BCAR1_ENST00000546196",
+  "mutated_samples": "0",
+  "samples_tested": "2677"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e6"
+  },
+  "gene_name": "C12orf76_ENST00000547573",
+  "mutated_samples": "0",
+  "samples_tested": "2677"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e7"
+  },
+  "gene_name": "MFSD12_ENST00000615613",
+  "mutated_samples": "0",
+  "samples_tested": "2675"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e8"
+  },
+  "gene_name": "TCEANC2_ENST00000391366",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2e9"
+  },
+  "gene_name": "TIMM13_ENST00000591871",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ea"
+  },
+  "gene_name": "FOXD4L4",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2eb"
+  },
+  "gene_name": "UBA3_ENST00000631029",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ec"
+  },
+  "gene_name": "CRYZL1_ENST00000399442",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ed"
+  },
+  "gene_name": "EOGT_ENST00000615922",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ee"
+  },
+  "gene_name": "MCRIP2_ENST00000629534",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ef"
+  },
+  "gene_name": "PNRC2_ENST00000579103",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f0"
+  },
+  "gene_name": "SMN1_ENST00000625245",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f1"
+  },
+  "gene_name": "ZNF696_ENST00000520333",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f2"
+  },
+  "gene_name": "RPS29_ENST00000554075",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f3"
+  },
+  "gene_name": "PCGF3_ENST00000620529",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f4"
+  },
+  "gene_name": "SSBP4_ENST00000625926",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f5"
+  },
+  "gene_name": "ALG11_ENST00000616513",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f6"
+  },
+  "gene_name": "ZNF696_ENST00000521537",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f7"
+  },
+  "gene_name": "STARD13_ENST00000439831",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f8"
+  },
+  "gene_name": "PCNP_ENST00000627393",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2f9"
+  },
+  "gene_name": "AC135068.1",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2fa"
+  },
+  "gene_name": "HRK",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2fb"
+  },
+  "gene_name": "RIN3_ENST00000557762",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2fc"
+  },
+  "gene_name": "OSBPL1A_ENST00000638614",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2fd"
+  },
+  "gene_name": "DDT_ENST00000430101",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2fe"
+  },
+  "gene_name": "DDT_ENST00000403754",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c2ff"
+  },
+  "gene_name": "ITM2C_ENST00000620962",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c300"
+  },
+  "gene_name": "SLC2A10_ENST00000486000",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c301"
+  },
+  "gene_name": "CBWD3_ENST00000478048",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c302"
+  },
+  "gene_name": "AP3S2_ENST00000617003",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c303"
+  },
+  "gene_name": "PPP2R5C_ENST00000556260",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c304"
+  },
+  "gene_name": "CTBP1_ENST00000629223",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c305"
+  },
+  "gene_name": "ACYP2_ENST00000606082",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c306"
+  },
+  "gene_name": "ZNF84_ENST00000542874",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c307"
+  },
+  "gene_name": "NOMO2_ENST00000620440",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c308"
+  },
+  "gene_name": "TRNP1",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c309"
+  },
+  "gene_name": "R3HDM4_ENST00000626716",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30a"
+  },
+  "gene_name": "NAV1_ENST00000593583",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30b"
+  },
+  "gene_name": "GNPTG_ENST00000527137",
+  "mutated_samples": "0",
+  "samples_tested": "2651"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30c"
+  },
+  "gene_name": "BRD3OS_ENST00000603928",
+  "mutated_samples": "0",
+  "samples_tested": "2641"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30d"
+  },
+  "gene_name": "AC022506.1",
+  "mutated_samples": "0",
+  "samples_tested": "2641"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30e"
+  },
+  "gene_name": "USP6NL_ENST00000609853",
+  "mutated_samples": "0",
+  "samples_tested": "2641"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c30f"
+  },
+  "gene_name": "AC119676.1",
+  "mutated_samples": "0",
+  "samples_tested": "2641"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c310"
+  },
+  "gene_name": "FAM236B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c311"
+  },
+  "gene_name": "PTPN20_ENST00000513159",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c312"
+  },
+  "gene_name": "RGPD5_ENST00000393283",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c313"
+  },
+  "gene_name": "OR11H2_ENST00000556246",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c314"
+  },
+  "gene_name": "GAGE12F_ENST00000440137",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c315"
+  },
+  "gene_name": "RDM1_ENST00000615378",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c316"
+  },
+  "gene_name": "PRAMEF9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c317"
+  },
+  "gene_name": "CCL14_ENST00000620991",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c318"
+  },
+  "gene_name": "FP565260.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c319"
+  },
+  "gene_name": "NCOA4_ENST00000580070",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31a"
+  },
+  "gene_name": "C5orf63_ENST00000509733",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31b"
+  },
+  "gene_name": "SMN2_ENST00000614240",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31c"
+  },
+  "gene_name": "GAGE12B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31d"
+  },
+  "gene_name": "HEATR9_ENST00000603870",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31e"
+  },
+  "gene_name": "AC004233.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c31f"
+  },
+  "gene_name": "PRY2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c320"
+  },
+  "gene_name": "GAS2L2_ENST00000604063",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c321"
+  },
+  "gene_name": "GATD3B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c322"
+  },
+  "gene_name": "CT47A4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c323"
+  },
+  "gene_name": "DAZ4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c324"
+  },
+  "gene_name": "PTPN20_ENST00000506080",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c325"
+  },
+  "gene_name": "USP17L23",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c326"
+  },
+  "gene_name": "CTAG1A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c327"
+  },
+  "gene_name": "NPIPB13_ENST00000618637",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c328"
+  },
+  "gene_name": "PTPN20_ENST00000508715",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c329"
+  },
+  "gene_name": "NPIPB13",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32a"
+  },
+  "gene_name": "GATD3B_ENST00000624120",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32b"
+  },
+  "gene_name": "XAGE1A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32c"
+  },
+  "gene_name": "CT45A8_ENST00000611438",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32d"
+  },
+  "gene_name": "CBWD6_ENST00000456520",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32e"
+  },
+  "gene_name": "CBSL_ENST00000624934",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c32f"
+  },
+  "gene_name": "NPIPB5_ENST00000621622",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c330"
+  },
+  "gene_name": "USP17L13",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c331"
+  },
+  "gene_name": "PPIAL4F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c332"
+  },
+  "gene_name": "SSX2B_ENST00000616191",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c333"
+  },
+  "gene_name": "SMIM22",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c334"
+  },
+  "gene_name": "AC138969.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c335"
+  },
+  "gene_name": "GAGE12C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c336"
+  },
+  "gene_name": "CTAG1B_ENST00000359887",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c337"
+  },
+  "gene_name": "RGPD6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c338"
+  },
+  "gene_name": "KRTAP4-16",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c339"
+  },
+  "gene_name": "GAGE12G",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33a"
+  },
+  "gene_name": "TAF15_ENST00000604841",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33b"
+  },
+  "gene_name": "DEFB130B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33c"
+  },
+  "gene_name": "HEATR9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33d"
+  },
+  "gene_name": "PIP4K2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33e"
+  },
+  "gene_name": "AL032819.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c33f"
+  },
+  "gene_name": "USP17L10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c340"
+  },
+  "gene_name": "ETDB_ENST00000426364",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c341"
+  },
+  "gene_name": "FP565260.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c342"
+  },
+  "gene_name": "AC022167.5_ENST00000637929",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c343"
+  },
+  "gene_name": "DAZ4_ENST00000382432",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c344"
+  },
+  "gene_name": "BRD3OS_ENST00000432807",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c345"
+  },
+  "gene_name": "MBD3L2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c346"
+  },
+  "gene_name": "SMIM22_ENST00000615471",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c347"
+  },
+  "gene_name": "NPIPB12_ENST00000617311",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c348"
+  },
+  "gene_name": "PRAMEF33",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c349"
+  },
+  "gene_name": "TMEM191C_ENST00000545656",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34a"
+  },
+  "gene_name": "CT47A8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34b"
+  },
+  "gene_name": "TIMM23",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34c"
+  },
+  "gene_name": "TSPY3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34d"
+  },
+  "gene_name": "XAGE1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34e"
+  },
+  "gene_name": "BOLA2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c34f"
+  },
+  "gene_name": "HNRNPCL4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c350"
+  },
+  "gene_name": "ERVK3-1_ENST00000413518",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c351"
+  },
+  "gene_name": "SSX4_ENST00000620320",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c352"
+  },
+  "gene_name": "FAM236C_ENST00000636532",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c353"
+  },
+  "gene_name": "AP002347.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c354"
+  },
+  "gene_name": "SMIM22_ENST00000589327",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c355"
+  },
+  "gene_name": "TBC1D3I",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c356"
+  },
+  "gene_name": "PTPN20_ENST00000505814",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c357"
+  },
+  "gene_name": "FAM156A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c358"
+  },
+  "gene_name": "HSFY2_ENST00000382852",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c359"
+  },
+  "gene_name": "SPATA31A7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35a"
+  },
+  "gene_name": "PPIAL4A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35b"
+  },
+  "gene_name": "TCP11X1_ENST00000622971",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35c"
+  },
+  "gene_name": "NBPF26_ENST00000611702",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35d"
+  },
+  "gene_name": "CTXND1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35e"
+  },
+  "gene_name": "NPIPB13_ENST00000543463",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c35f"
+  },
+  "gene_name": "NBPF26_ENST00000624419",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c360"
+  },
+  "gene_name": "DAZ2_ENST00000382440",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c361"
+  },
+  "gene_name": "SMIM10L1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c362"
+  },
+  "gene_name": "AL022312.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c363"
+  },
+  "gene_name": "U2AF1L5_ENST00000639996",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c364"
+  },
+  "gene_name": "HSFY2_ENST00000344884",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c365"
+  },
+  "gene_name": "PCGF2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c366"
+  },
+  "gene_name": "TBC1D3I_ENST00000616671",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c367"
+  },
+  "gene_name": "ANKRD40CL",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c368"
+  },
+  "gene_name": "TBC1D3G",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c369"
+  },
+  "gene_name": "CSAG2_ENST00000535353",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36a"
+  },
+  "gene_name": "CCL3L1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36b"
+  },
+  "gene_name": "SMIM22_ENST00000589721",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36c"
+  },
+  "gene_name": "CCDC200",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36d"
+  },
+  "gene_name": "NBPF26_ENST00000609741",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36e"
+  },
+  "gene_name": "DEFA1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c36f"
+  },
+  "gene_name": "SMN2_ENST00000380741",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c370"
+  },
+  "gene_name": "SERTM2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c371"
+  },
+  "gene_name": "AC233724.15",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c372"
+  },
+  "gene_name": "USP17L30",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c373"
+  },
+  "gene_name": "CCL14_ENST00000618404",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c374"
+  },
+  "gene_name": "SULT1A3_ENST00000338971",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c375"
+  },
+  "gene_name": "FOXD4L6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c376"
+  },
+  "gene_name": "MBD3L2B_ENST00000637800",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c377"
+  },
+  "gene_name": "AC106774.9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c378"
+  },
+  "gene_name": "MAGEA2_ENST00000620710",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c379"
+  },
+  "gene_name": "HIST2H4B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37a"
+  },
+  "gene_name": "NCOA4_ENST00000585132",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37b"
+  },
+  "gene_name": "DUX4_ENST00000570263",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37c"
+  },
+  "gene_name": "DUX4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37d"
+  },
+  "gene_name": "PRR20C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37e"
+  },
+  "gene_name": "GAGE2E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c37f"
+  },
+  "gene_name": "PTPN20_ENST00000374342",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c380"
+  },
+  "gene_name": "TBC1D3L_ENST00000617678",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c381"
+  },
+  "gene_name": "ARHGAP23",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c382"
+  },
+  "gene_name": "TMEM191B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c383"
+  },
+  "gene_name": "DAZ1_ENST00000426000",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c384"
+  },
+  "gene_name": "SMIM22_ENST00000586005",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c385"
+  },
+  "gene_name": "CCL4L2_ENST00000613173",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c386"
+  },
+  "gene_name": "SOCS7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c387"
+  },
+  "gene_name": "PRR20A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c388"
+  },
+  "gene_name": "HNF1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c389"
+  },
+  "gene_name": "CCL4L2_ENST00000620250",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38a"
+  },
+  "gene_name": "FAM156A_ENST00000612915",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38b"
+  },
+  "gene_name": "SEC22B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38c"
+  },
+  "gene_name": "MRM1_ENST00000612760",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38d"
+  },
+  "gene_name": "CT47A3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38e"
+  },
+  "gene_name": "CRYAA2_ENST00000624932",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c38f"
+  },
+  "gene_name": "TCAF2C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c390"
+  },
+  "gene_name": "SMN2_ENST00000628696",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c391"
+  },
+  "gene_name": "SMIM11B_ENST00000612624",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c392"
+  },
+  "gene_name": "AC138969.1_ENST00000331436",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c393"
+  },
+  "gene_name": "DWORF",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c394"
+  },
+  "gene_name": "CCL15",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c395"
+  },
+  "gene_name": "DDX52",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c396"
+  },
+  "gene_name": "LHX1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c397"
+  },
+  "gene_name": "C2orf92_ENST00000627284",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c398"
+  },
+  "gene_name": "ZNF705D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c399"
+  },
+  "gene_name": "FP565260.6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39a"
+  },
+  "gene_name": "DUSP14",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39b"
+  },
+  "gene_name": "B3GNT10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39c"
+  },
+  "gene_name": "TSPY10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39d"
+  },
+  "gene_name": "DAZ2_ENST00000382294",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39e"
+  },
+  "gene_name": "UBE2L5_ENST00000635918",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c39f"
+  },
+  "gene_name": "FAM236D_ENST00000458170",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a0"
+  },
+  "gene_name": "EPOP",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a1"
+  },
+  "gene_name": "HSFX2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a2"
+  },
+  "gene_name": "MYOCOS_ENST00000637642",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a3"
+  },
+  "gene_name": "VCY",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a4"
+  },
+  "gene_name": "SCYGR6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a5"
+  },
+  "gene_name": "CISD3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a6"
+  },
+  "gene_name": "U2AF1L5_ENST00000619610",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a7"
+  },
+  "gene_name": "SMIM18_ENST00000626298",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a8"
+  },
+  "gene_name": "CXorf51A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3a9"
+  },
+  "gene_name": "AC243756.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3aa"
+  },
+  "gene_name": "RPS17",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ab"
+  },
+  "gene_name": "NBPF26_ENST00000615145",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ac"
+  },
+  "gene_name": "IFNL4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ad"
+  },
+  "gene_name": "DAZ4_ENST00000382296",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ae"
+  },
+  "gene_name": "CT45A7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3af"
+  },
+  "gene_name": "HNF1B_ENST00000620125",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b0"
+  },
+  "gene_name": "CD24_ENST00000610952",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b1"
+  },
+  "gene_name": "C19orf85",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b2"
+  },
+  "gene_name": "GGTLC3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b3"
+  },
+  "gene_name": "TEX28_ENST00000610938",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b4"
+  },
+  "gene_name": "CCL23",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b5"
+  },
+  "gene_name": "AC233724.20",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b6"
+  },
+  "gene_name": "FP565260.3_ENST00000620481",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b7"
+  },
+  "gene_name": "AC106774.5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b8"
+  },
+  "gene_name": "MTRNR2L4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3b9"
+  },
+  "gene_name": "AC106774.6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ba"
+  },
+  "gene_name": "MTRNR2L3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3bb"
+  },
+  "gene_name": "SULT1A3_ENST00000563322",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3bc"
+  },
+  "gene_name": "PCGF2_ENST00000620225",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3bd"
+  },
+  "gene_name": "USP17L26_ENST00000610514",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3be"
+  },
+  "gene_name": "TP53TG3C_ENST00000360260",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3bf"
+  },
+  "gene_name": "KCNJ18",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c0"
+  },
+  "gene_name": "POLR2J2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c1"
+  },
+  "gene_name": "DAZ2_ENST00000382431",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c2"
+  },
+  "gene_name": "PTPN20_ENST00000502705",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c3"
+  },
+  "gene_name": "LINC00672",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c4"
+  },
+  "gene_name": "OPN1MW3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c5"
+  },
+  "gene_name": "CSAG3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c6"
+  },
+  "gene_name": "FAM72C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c7"
+  },
+  "gene_name": "RDM1_ENST00000639942",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c8"
+  },
+  "gene_name": "U2AF1L5_ENST00000623375",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3c9"
+  },
+  "gene_name": "NCOA4_ENST00000583565",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ca"
+  },
+  "gene_name": "FAM230A_ENST00000615181",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3cb"
+  },
+  "gene_name": "TBC1D3F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3cc"
+  },
+  "gene_name": "AL451007.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3cd"
+  },
+  "gene_name": "SMIM22_ENST00000591870",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ce"
+  },
+  "gene_name": "PRAMEF13_ENST00000625019",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3cf"
+  },
+  "gene_name": "SMIM22_ENST00000588606",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d0"
+  },
+  "gene_name": "ANTXRL_ENST00000622632",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d1"
+  },
+  "gene_name": "AC009477.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d2"
+  },
+  "gene_name": "CT47A5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d3"
+  },
+  "gene_name": "PTPN20_ENST00000395727",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d4"
+  },
+  "gene_name": "ZNF488",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d5"
+  },
+  "gene_name": "AC005551.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d6"
+  },
+  "gene_name": "SSU72P7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d7"
+  },
+  "gene_name": "MAGEA2B_ENST00000370293",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d8"
+  },
+  "gene_name": "HIST2H3A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3d9"
+  },
+  "gene_name": "XAGE1A_ENST00000375600",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3da"
+  },
+  "gene_name": "DHRS11",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3db"
+  },
+  "gene_name": "ACACA_ENST00000614438",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3dc"
+  },
+  "gene_name": "MYMX",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3dd"
+  },
+  "gene_name": "MAGEA9B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3de"
+  },
+  "gene_name": "ETDC",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3df"
+  },
+  "gene_name": "CT45A9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e0"
+  },
+  "gene_name": "KCNE1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e1"
+  },
+  "gene_name": "CTAG1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e2"
+  },
+  "gene_name": "SMIM11B_ENST00000623661",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e3"
+  },
+  "gene_name": "PTPN20_ENST00000374218",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e4"
+  },
+  "gene_name": "DAZ1_ENST00000540248",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e5"
+  },
+  "gene_name": "USP17L10_ENST00000421288",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e6"
+  },
+  "gene_name": "TSPY8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e7"
+  },
+  "gene_name": "SYNRG",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e8"
+  },
+  "gene_name": "RBMY1A1_ENST00000439108",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3e9"
+  },
+  "gene_name": "MAGEA2_ENST00000623438",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ea"
+  },
+  "gene_name": "TMEM238L",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3eb"
+  },
+  "gene_name": "DEFA1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ec"
+  },
+  "gene_name": "AC135068.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ed"
+  },
+  "gene_name": "SLX1B_ENST00000351581",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ee"
+  },
+  "gene_name": "SPATA31A3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ef"
+  },
+  "gene_name": "AL353572.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f0"
+  },
+  "gene_name": "NPY4R2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f1"
+  },
+  "gene_name": "XAGE1B_ENST00000518075",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f2"
+  },
+  "gene_name": "SPEM3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f3"
+  },
+  "gene_name": "CCL18",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f4"
+  },
+  "gene_name": "RDM1_ENST00000617591",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f5"
+  },
+  "gene_name": "TP53TG3_ENST00000569420",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f6"
+  },
+  "gene_name": "ACACA_ENST00000614428",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f7"
+  },
+  "gene_name": "PTPN20_ENST00000374346",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f8"
+  },
+  "gene_name": "CBSL_ENST00000624406",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3f9"
+  },
+  "gene_name": "C17orf78_ENST00000611038",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3fa"
+  },
+  "gene_name": "SPANXA1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3fb"
+  },
+  "gene_name": "RDM1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3fc"
+  },
+  "gene_name": "AC233724.19",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3fd"
+  },
+  "gene_name": "U2AF1L5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3fe"
+  },
+  "gene_name": "LIMS4_ENST00000632897",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c3ff"
+  },
+  "gene_name": "CT47A1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c400"
+  },
+  "gene_name": "TP53TG3E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c401"
+  },
+  "gene_name": "ETDA",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c402"
+  },
+  "gene_name": "IGKV2-40",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c403"
+  },
+  "gene_name": "CCL4L2_ENST00000615418",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c404"
+  },
+  "gene_name": "DMRTC1B_ENST00000373532",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c405"
+  },
+  "gene_name": "SMIM22_ENST00000588500",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c406"
+  },
+  "gene_name": "AC106774.7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c407"
+  },
+  "gene_name": "ZNF658_ENST00000621410",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c408"
+  },
+  "gene_name": "MYOCOS_ENST00000636788",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c409"
+  },
+  "gene_name": "GDF2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40a"
+  },
+  "gene_name": "PTPN20_ENST00000511769",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40b"
+  },
+  "gene_name": "GOLGA6L9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40c"
+  },
+  "gene_name": "MRM1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40d"
+  },
+  "gene_name": "AATF",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40e"
+  },
+  "gene_name": "TRIM49D2_ENST00000526396",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c40f"
+  },
+  "gene_name": "MTRNR2L11",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c410"
+  },
+  "gene_name": "FAM156B_ENST00000616419",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c411"
+  },
+  "gene_name": "AC106782.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c412"
+  },
+  "gene_name": "MAGEA2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c413"
+  },
+  "gene_name": "MYO19_ENST00000620640",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c414"
+  },
+  "gene_name": "SLX1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c415"
+  },
+  "gene_name": "PPIAL4C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c416"
+  },
+  "gene_name": "CCL4L2_ENST00000617416",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c417"
+  },
+  "gene_name": "CT47A9",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c418"
+  },
+  "gene_name": "NPIPA5_ENST00000534094",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c419"
+  },
+  "gene_name": "GNG14_ENST00000640117",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41a"
+  },
+  "gene_name": "PTPN20_ENST00000513266",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41b"
+  },
+  "gene_name": "RBMY1F_ENST00000454978",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41c"
+  },
+  "gene_name": "CSAG3_ENST00000599845",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41d"
+  },
+  "gene_name": "TMSB15B_ENST00000620307",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41e"
+  },
+  "gene_name": "ZNF658",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c41f"
+  },
+  "gene_name": "NBPF19_ENST00000578189",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c420"
+  },
+  "gene_name": "TAF15",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c421"
+  },
+  "gene_name": "MLLT6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c422"
+  },
+  "gene_name": "CD24_ENST00000619133",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c423"
+  },
+  "gene_name": "CCL14",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c424"
+  },
+  "gene_name": "PRR20E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c425"
+  },
+  "gene_name": "TSPY3_ENST00000440483",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c426"
+  },
+  "gene_name": "MSMB",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c427"
+  },
+  "gene_name": "PTPN20",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c428"
+  },
+  "gene_name": "NCOA4_ENST00000579039",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c429"
+  },
+  "gene_name": "CCL4L2_ENST00000620732",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42a"
+  },
+  "gene_name": "RBP3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42b"
+  },
+  "gene_name": "PTPN20_ENST00000509599",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42c"
+  },
+  "gene_name": "XAGE1B_ENST00000375613",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42d"
+  },
+  "gene_name": "USP17L8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42e"
+  },
+  "gene_name": "CT47A2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c42f"
+  },
+  "gene_name": "DAZ1_ENST00000620725",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c430"
+  },
+  "gene_name": "TP53TG3C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c431"
+  },
+  "gene_name": "LIMS4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c432"
+  },
+  "gene_name": "TBC1D3C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c433"
+  },
+  "gene_name": "CTXND2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c434"
+  },
+  "gene_name": "AC233724.16",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c435"
+  },
+  "gene_name": "MRPL45_ENST00000619548",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c436"
+  },
+  "gene_name": "SSX4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c437"
+  },
+  "gene_name": "CD24_ENST00000620405",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c438"
+  },
+  "gene_name": "FAM156A_ENST00000617970",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c439"
+  },
+  "gene_name": "TP53TG3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43a"
+  },
+  "gene_name": "TINCR_ENST00000646160",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43b"
+  },
+  "gene_name": "TADA2A_ENST00000620367",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43c"
+  },
+  "gene_name": "ZNHIT3_ENST00000620324",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43d"
+  },
+  "gene_name": "CBSL_ENST00000618024",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43e"
+  },
+  "gene_name": "SPTY2D1OS_ENST00000542172",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c43f"
+  },
+  "gene_name": "PTPN20_ENST00000513756",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c440"
+  },
+  "gene_name": "AC106774.8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c441"
+  },
+  "gene_name": "MAGEA2_ENST00000595583",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c442"
+  },
+  "gene_name": "PNMA6E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c443"
+  },
+  "gene_name": "TEX28_ENST00000617225",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c444"
+  },
+  "gene_name": "FAM236A_ENST00000593662",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c445"
+  },
+  "gene_name": "HGH1_ENST00000628266",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c446"
+  },
+  "gene_name": "FAM156B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c447"
+  },
+  "gene_name": "USP17L26",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c448"
+  },
+  "gene_name": "SETSIP",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c449"
+  },
+  "gene_name": "MMP28",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44a"
+  },
+  "gene_name": "SCYGR3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44b"
+  },
+  "gene_name": "NPIPA7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44c"
+  },
+  "gene_name": "TBC1D3L",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44d"
+  },
+  "gene_name": "SMIM11B_ENST00000624758",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44e"
+  },
+  "gene_name": "BRD3OS",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c44f"
+  },
+  "gene_name": "DMRTC1B_ENST00000373533",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c450"
+  },
+  "gene_name": "PGA3_ENST00000538258",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c451"
+  },
+  "gene_name": "USP17L25",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c452"
+  },
+  "gene_name": "DPEP2NB",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c453"
+  },
+  "gene_name": "MT-ATP8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c454"
+  },
+  "gene_name": "USP17L29",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c455"
+  },
+  "gene_name": "RPS17_ENST00000561157",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c456"
+  },
+  "gene_name": "RBMY1B_ENST00000619219",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c457"
+  },
+  "gene_name": "NCOA4_ENST00000585056",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c458"
+  },
+  "gene_name": "USP17L27",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c459"
+  },
+  "gene_name": "MYMX_ENST00000576476",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45a"
+  },
+  "gene_name": "C17orf50_ENST00000603305",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45b"
+  },
+  "gene_name": "DMRTC1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45c"
+  },
+  "gene_name": "RBMY1A1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45d"
+  },
+  "gene_name": "SSX2_ENST00000337502",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45e"
+  },
+  "gene_name": "SMIM34B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c45f"
+  },
+  "gene_name": "MAGEA2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c460"
+  },
+  "gene_name": "AC233724.18",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c461"
+  },
+  "gene_name": "MTRNR2L7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c462"
+  },
+  "gene_name": "MLLT6_ENST00000620609",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c463"
+  },
+  "gene_name": "FAM240B_ENST00000637691",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c464"
+  },
+  "gene_name": "ZNF705D_ENST00000400078",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c465"
+  },
+  "gene_name": "ETDA_ENST00000454551",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c466"
+  },
+  "gene_name": "CCL4L2_ENST00000620055",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c467"
+  },
+  "gene_name": "SCYGR2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c468"
+  },
+  "gene_name": "PRAMEF26",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c469"
+  },
+  "gene_name": "PGA4_ENST00000537932",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46a"
+  },
+  "gene_name": "FAM156A_ENST00000596733",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46b"
+  },
+  "gene_name": "TP53TG3B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46c"
+  },
+  "gene_name": "GPR182_ENST00000622922",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46d"
+  },
+  "gene_name": "TMEM191B_ENST00000613597",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46e"
+  },
+  "gene_name": "CCL5_ENST00000605140",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c46f"
+  },
+  "gene_name": "TUBGCP5_ENST00000620435",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c470"
+  },
+  "gene_name": "CBWD6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c471"
+  },
+  "gene_name": "DAZ2_ENST00000382424",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c472"
+  },
+  "gene_name": "F8A2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c473"
+  },
+  "gene_name": "NPIPA2_ENST00000530328",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c474"
+  },
+  "gene_name": "TBC1D3K",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c475"
+  },
+  "gene_name": "NCOA4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c476"
+  },
+  "gene_name": "SYNRG_ENST00000621136",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c477"
+  },
+  "gene_name": "RAB7B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c478"
+  },
+  "gene_name": "ZNF488_ENST00000591025",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c479"
+  },
+  "gene_name": "TADA2A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47a"
+  },
+  "gene_name": "C17orf78",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47b"
+  },
+  "gene_name": "HSFY2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47c"
+  },
+  "gene_name": "RBMY1D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47d"
+  },
+  "gene_name": "NPIPB12_ENST00000458643",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47e"
+  },
+  "gene_name": "ACACA_ENST00000617649",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c47f"
+  },
+  "gene_name": "PTPN20_ENST00000395722",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c480"
+  },
+  "gene_name": "AC116565.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c481"
+  },
+  "gene_name": "MAGEA2_ENST00000598543",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c482"
+  },
+  "gene_name": "HIST2H3PS2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c483"
+  },
+  "gene_name": "HIST2H2AA4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c484"
+  },
+  "gene_name": "DIABLO_ENST00000475784",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c485"
+  },
+  "gene_name": "C2orf92_ENST00000599501",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c486"
+  },
+  "gene_name": "OR4F16",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c487"
+  },
+  "gene_name": "SMIM11B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c488"
+  },
+  "gene_name": "DAZ1_ENST00000382510",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c489"
+  },
+  "gene_name": "HNRNPCL3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48a"
+  },
+  "gene_name": "TBC1D3D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48b"
+  },
+  "gene_name": "MRLN",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48c"
+  },
+  "gene_name": "PRAMEF18",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48d"
+  },
+  "gene_name": "MRPL45",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48e"
+  },
+  "gene_name": "AL136373.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c48f"
+  },
+  "gene_name": "AC126755.2_ENST00000327792",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c490"
+  },
+  "gene_name": "UBE2L5_ENST00000436446",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c491"
+  },
+  "gene_name": "Z82206.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c492"
+  },
+  "gene_name": "GAGE12E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c493"
+  },
+  "gene_name": "SYNRG_ENST00000622045",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c494"
+  },
+  "gene_name": "USP17L28",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c495"
+  },
+  "gene_name": "PET100_ENST00000601406",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c496"
+  },
+  "gene_name": "PIGBOS1_ENST00000567948",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c497"
+  },
+  "gene_name": "PCGF2_ENST00000616129",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c498"
+  },
+  "gene_name": "MYO19_ENST00000621344",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c499"
+  },
+  "gene_name": "GDF10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49a"
+  },
+  "gene_name": "SSX2B_ENST00000596480",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49b"
+  },
+  "gene_name": "GGNBP2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49c"
+  },
+  "gene_name": "NPIPA3_ENST00000526520",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49d"
+  },
+  "gene_name": "CDY1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49e"
+  },
+  "gene_name": "VCY1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c49f"
+  },
+  "gene_name": "PTPN20_ENST00000502254",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a0"
+  },
+  "gene_name": "C13orf46",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a1"
+  },
+  "gene_name": "SCYGR10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a2"
+  },
+  "gene_name": "NPIPB11_ENST00000614927",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a3"
+  },
+  "gene_name": "SOCS7_ENST00000613678",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a4"
+  },
+  "gene_name": "PTPN20_ENST00000509900",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a5"
+  },
+  "gene_name": "TMEM191C_ENST00000536718",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a6"
+  },
+  "gene_name": "CT45A7_ENST00000620885",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a7"
+  },
+  "gene_name": "FP565260.4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a8"
+  },
+  "gene_name": "USP17L25_ENST00000621472",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4a9"
+  },
+  "gene_name": "PMIS2_ENST00000646476",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4aa"
+  },
+  "gene_name": "SULT1A3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ab"
+  },
+  "gene_name": "ETDB",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ac"
+  },
+  "gene_name": "HSFY1_ENST00000382856",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ad"
+  },
+  "gene_name": "TSPY4_ENST00000426950",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ae"
+  },
+  "gene_name": "AC007906.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4af"
+  },
+  "gene_name": "SCX",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b0"
+  },
+  "gene_name": "C17orf98",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b1"
+  },
+  "gene_name": "OR11H2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b2"
+  },
+  "gene_name": "PIGW_ENST00000620233",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b3"
+  },
+  "gene_name": "RDM1_ENST00000619828",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b4"
+  },
+  "gene_name": "MMP28_ENST00000615136",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b5"
+  },
+  "gene_name": "PNMA6E_ENST00000633844",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b6"
+  },
+  "gene_name": "PRR23D2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b7"
+  },
+  "gene_name": "DUSP14_ENST00000617516",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b8"
+  },
+  "gene_name": "NPY4R2_ENST00000613306",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4b9"
+  },
+  "gene_name": "POTEB3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ba"
+  },
+  "gene_name": "MTRNR2L8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4bb"
+  },
+  "gene_name": "PIGW",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4bc"
+  },
+  "gene_name": "USP17L24",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4bd"
+  },
+  "gene_name": "SCGB1C2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4be"
+  },
+  "gene_name": "TEX54",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4bf"
+  },
+  "gene_name": "FAM240B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c0"
+  },
+  "gene_name": "RBMY1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c1"
+  },
+  "gene_name": "CT47A11",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c2"
+  },
+  "gene_name": "MT-ND4L",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c3"
+  },
+  "gene_name": "CDY1_ENST00000361963",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c4"
+  },
+  "gene_name": "ANTXRL",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c5"
+  },
+  "gene_name": "PANO1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c6"
+  },
+  "gene_name": "AC008162.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c7"
+  },
+  "gene_name": "AC087498.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c8"
+  },
+  "gene_name": "PRR20B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4c9"
+  },
+  "gene_name": "PIGBOS1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ca"
+  },
+  "gene_name": "CWC25",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4cb"
+  },
+  "gene_name": "CT45A8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4cc"
+  },
+  "gene_name": "SMN2_ENST00000638794",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4cd"
+  },
+  "gene_name": "CENPVL1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ce"
+  },
+  "gene_name": "DUX4_ENST00000569241",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4cf"
+  },
+  "gene_name": "DEFB130A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d0"
+  },
+  "gene_name": "RIMBP3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d1"
+  },
+  "gene_name": "FAM156B_ENST00000509613",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d2"
+  },
+  "gene_name": "AC008397.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d3"
+  },
+  "gene_name": "RGPD6_ENST00000330331",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d4"
+  },
+  "gene_name": "RDM1_ENST00000619876",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d5"
+  },
+  "gene_name": "ANKRD20A3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d6"
+  },
+  "gene_name": "MYOCOS_ENST00000636697",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d7"
+  },
+  "gene_name": "SCYGR7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d8"
+  },
+  "gene_name": "RASL10B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4d9"
+  },
+  "gene_name": "MSMB_ENST00000581478",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4da"
+  },
+  "gene_name": "BOLA2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4db"
+  },
+  "gene_name": "CLEC20A_ENST00000646925",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4dc"
+  },
+  "gene_name": "SCYGR1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4dd"
+  },
+  "gene_name": "OR4F29",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4de"
+  },
+  "gene_name": "HIST2H2AA3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4df"
+  },
+  "gene_name": "DAZ4_ENST00000415508",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e0"
+  },
+  "gene_name": "NBPF19_ENST00000426482",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e1"
+  },
+  "gene_name": "CBWD6_ENST00000613716",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e2"
+  },
+  "gene_name": "CBSL",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e3"
+  },
+  "gene_name": "CCL4L2_ENST00000620098",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e4"
+  },
+  "gene_name": "AC233724.17",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e5"
+  },
+  "gene_name": "NBPF26",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e6"
+  },
+  "gene_name": "HNF1B_ENST00000621123",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e7"
+  },
+  "gene_name": "CBSL_ENST00000398168",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e8"
+  },
+  "gene_name": "SPANXB1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4e9"
+  },
+  "gene_name": "DAZ3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ea"
+  },
+  "gene_name": "BX088645.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4eb"
+  },
+  "gene_name": "AP003071.5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ec"
+  },
+  "gene_name": "TP53TG3E_ENST00000611321",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ed"
+  },
+  "gene_name": "TSPY4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ee"
+  },
+  "gene_name": "AC233723.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ef"
+  },
+  "gene_name": "HSFY1_ENST00000309834",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f0"
+  },
+  "gene_name": "DAZ2_ENST00000400493",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f1"
+  },
+  "gene_name": "NPIPA8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f2"
+  },
+  "gene_name": "FAM236C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f3"
+  },
+  "gene_name": "CCDC187_ENST00000624277",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f4"
+  },
+  "gene_name": "HNF1B_ENST00000613727",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f5"
+  },
+  "gene_name": "PMIS2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f6"
+  },
+  "gene_name": "MTLN_ENST00000426713",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f7"
+  },
+  "gene_name": "KANTR",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f8"
+  },
+  "gene_name": "SPATA31A5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4f9"
+  },
+  "gene_name": "GATD3B_ENST00000620015",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4fa"
+  },
+  "gene_name": "SYNRG_ENST00000614941",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4fb"
+  },
+  "gene_name": "PRY",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4fc"
+  },
+  "gene_name": "ZNHIT3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4fd"
+  },
+  "gene_name": "DAZ3_ENST00000315357",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4fe"
+  },
+  "gene_name": "FAM72C_ENST00000369175",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c4ff"
+  },
+  "gene_name": "FAM25G",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c500"
+  },
+  "gene_name": "GGNBP2_ENST00000611219",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c501"
+  },
+  "gene_name": "FP565260.3_ENST00000623960",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c502"
+  },
+  "gene_name": "PGA4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c503"
+  },
+  "gene_name": "DEFB105A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c504"
+  },
+  "gene_name": "APELA_ENST00000515275",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c505"
+  },
+  "gene_name": "RAB7B_ENST00000617070",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c506"
+  },
+  "gene_name": "ELOA3B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c507"
+  },
+  "gene_name": "PTPN20_ENST00000508602",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c508"
+  },
+  "gene_name": "ZNHIT3_ENST00000619730",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c509"
+  },
+  "gene_name": "DAZ2_ENST00000449947",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50a"
+  },
+  "gene_name": "SSX2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50b"
+  },
+  "gene_name": "TRIM49D1_ENST00000420869",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50c"
+  },
+  "gene_name": "RDM1_ENST00000619262",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50d"
+  },
+  "gene_name": "GAS2L2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50e"
+  },
+  "gene_name": "MTLN_ENST00000611969",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c50f"
+  },
+  "gene_name": "PGA4_ENST00000544899",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c510"
+  },
+  "gene_name": "NPIPA2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c511"
+  },
+  "gene_name": "CT47A10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c512"
+  },
+  "gene_name": "CCL5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c513"
+  },
+  "gene_name": "CT47A7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c514"
+  },
+  "gene_name": "AC233724.12",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c515"
+  },
+  "gene_name": "TRIM49D1_ENST00000605881",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c516"
+  },
+  "gene_name": "C17orf50",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c517"
+  },
+  "gene_name": "C5orf63_ENST00000607731",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c518"
+  },
+  "gene_name": "NCBP2-AS2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c519"
+  },
+  "gene_name": "H2AFB3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51a"
+  },
+  "gene_name": "MBD3L4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51b"
+  },
+  "gene_name": "CCL4L2_ENST00000620576",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51c"
+  },
+  "gene_name": "GPR179_ENST00000621958",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51d"
+  },
+  "gene_name": "DMRTC1_ENST00000596389",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51e"
+  },
+  "gene_name": "CSAG2_ENST00000638741",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c51f"
+  },
+  "gene_name": "CLEC20A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c520"
+  },
+  "gene_name": "LBHD2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c521"
+  },
+  "gene_name": "NPIPA2_ENST00000529166",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c522"
+  },
+  "gene_name": "CU633980.1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c523"
+  },
+  "gene_name": "CCL3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c524"
+  },
+  "gene_name": "CT47A12",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c525"
+  },
+  "gene_name": "RBMY1D_ENST00000418956",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c526"
+  },
+  "gene_name": "AC068987.5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c527"
+  },
+  "gene_name": "ARHGAP23_ENST00000620417",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c528"
+  },
+  "gene_name": "HIST2H4A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c529"
+  },
+  "gene_name": "MTRNR2L1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52a"
+  },
+  "gene_name": "MYO19",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52b"
+  },
+  "gene_name": "TBC1D3B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52c"
+  },
+  "gene_name": "DUX4_ENST00000616166",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52d"
+  },
+  "gene_name": "NPIPA5_ENST00000543801",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52e"
+  },
+  "gene_name": "CENPVL3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c52f"
+  },
+  "gene_name": "DAZ4_ENST00000634662",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c530"
+  },
+  "gene_name": "MMP24OS_ENST00000456790",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c531"
+  },
+  "gene_name": "LYZL6_ENST00000618542",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c532"
+  },
+  "gene_name": "SPRR5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c533"
+  },
+  "gene_name": "AC133555.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c534"
+  },
+  "gene_name": "ACACA_ENST00000612895",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c535"
+  },
+  "gene_name": "AC022167.5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c536"
+  },
+  "gene_name": "NPIPB3_ENST00000448012",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c537"
+  },
+  "gene_name": "CCL23_ENST00000612516",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c538"
+  },
+  "gene_name": "USP17L5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c539"
+  },
+  "gene_name": "TUBGCP5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53a"
+  },
+  "gene_name": "C2orf92",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53b"
+  },
+  "gene_name": "PCGF2_ENST00000618506",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53c"
+  },
+  "gene_name": "FAM236A",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53d"
+  },
+  "gene_name": "DAZ2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53e"
+  },
+  "gene_name": "SMIM11B_ENST00000622934",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c53f"
+  },
+  "gene_name": "FAM156B_ENST00000416841",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c540"
+  },
+  "gene_name": "RGPD5_ENST00000272454",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c541"
+  },
+  "gene_name": "GPR179",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c542"
+  },
+  "gene_name": "MTRNR2L12",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c543"
+  },
+  "gene_name": "DHRS11_ENST00000611337",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c544"
+  },
+  "gene_name": "SRCIN1_ENST00000621492",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c545"
+  },
+  "gene_name": "CBWD6_ENST00000617933",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c546"
+  },
+  "gene_name": "AL845331.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c547"
+  },
+  "gene_name": "PTPN20_ENST00000509774",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c548"
+  },
+  "gene_name": "TSPY3_ENST00000457222",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c549"
+  },
+  "gene_name": "MTRNR2L5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54a"
+  },
+  "gene_name": "CCDC187",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54b"
+  },
+  "gene_name": "FAM156A_ENST00000611661",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54c"
+  },
+  "gene_name": "AL109810.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54d"
+  },
+  "gene_name": "IGKV2D-40",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54e"
+  },
+  "gene_name": "TBC1D3H",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c54f"
+  },
+  "gene_name": "TSPY8_ENST00000287721",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c550"
+  },
+  "gene_name": "RAB7B_ENST00000623893",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c551"
+  },
+  "gene_name": "GAS2L2_ENST00000618498",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c552"
+  },
+  "gene_name": "MAGEA2_ENST00000611674",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c553"
+  },
+  "gene_name": "PTPN20_ENST00000513156",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c554"
+  },
+  "gene_name": "TBC1D3I_ENST00000618620",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c555"
+  },
+  "gene_name": "CFC1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c556"
+  },
+  "gene_name": "USP17L13_ENST00000616303",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c557"
+  },
+  "gene_name": "CCDC195",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c558"
+  },
+  "gene_name": "FO681492.1_ENST00000622861",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c559"
+  },
+  "gene_name": "LYZL6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55a"
+  },
+  "gene_name": "NBPF26_ENST00000617913",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55b"
+  },
+  "gene_name": "CT45A9_ENST00000604569",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55c"
+  },
+  "gene_name": "SSX2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55d"
+  },
+  "gene_name": "TSPY10_ENST00000428845",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55e"
+  },
+  "gene_name": "KCNE1B_ENST00000622690",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c55f"
+  },
+  "gene_name": "TEX28",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c560"
+  },
+  "gene_name": "C17orf113",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c561"
+  },
+  "gene_name": "NBPF26_ENST00000615219",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c562"
+  },
+  "gene_name": "CRYAA2_ENST00000624019",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c563"
+  },
+  "gene_name": "PTPN20_ENST00000395721",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c564"
+  },
+  "gene_name": "NBPF26_ENST00000611287",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c565"
+  },
+  "gene_name": "FAM156A_ENST00000623782",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c566"
+  },
+  "gene_name": "EIF3CL",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c567"
+  },
+  "gene_name": "AC008687.4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c568"
+  },
+  "gene_name": "MMP28_ENST00000612672",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c569"
+  },
+  "gene_name": "TBC1D3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56a"
+  },
+  "gene_name": "TP53TG3B_ENST00000569741",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56b"
+  },
+  "gene_name": "SYNRG_ENST00000619541",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56c"
+  },
+  "gene_name": "CD24_ENST00000606017",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56d"
+  },
+  "gene_name": "INAFM2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56e"
+  },
+  "gene_name": "LINC02203",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c56f"
+  },
+  "gene_name": "SCYGR5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c570"
+  },
+  "gene_name": "FO681492.1_ENST00000623662",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c571"
+  },
+  "gene_name": "FAM156A_ENST00000615092",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c572"
+  },
+  "gene_name": "TP53TG3F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c573"
+  },
+  "gene_name": "PRAMEF13",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c574"
+  },
+  "gene_name": "TADA2A_ENST00000612272",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c575"
+  },
+  "gene_name": "USP17L24_ENST00000622713",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c576"
+  },
+  "gene_name": "OR5BS1P",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c577"
+  },
+  "gene_name": "DAZ2_ENST00000382449",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c578"
+  },
+  "gene_name": "SMIM11B_ENST00000619874",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c579"
+  },
+  "gene_name": "SETSIP_ENST00000485873",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57a"
+  },
+  "gene_name": "CFC1B_ENST00000619050",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57b"
+  },
+  "gene_name": "CCDC200_ENST00000594691",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57c"
+  },
+  "gene_name": "MAGEA2_ENST00000611557",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57d"
+  },
+  "gene_name": "AC138969.1_ENST00000541593",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57e"
+  },
+  "gene_name": "RGPD5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c57f"
+  },
+  "gene_name": "RDM1_ENST00000616596",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c580"
+  },
+  "gene_name": "F8A3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c581"
+  },
+  "gene_name": "ACACA",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c582"
+  },
+  "gene_name": "MMP24OS",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c583"
+  },
+  "gene_name": "THSD8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c584"
+  },
+  "gene_name": "PNMA6F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c585"
+  },
+  "gene_name": "PTPN20_ENST00000395725",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c586"
+  },
+  "gene_name": "PSMB3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c587"
+  },
+  "gene_name": "FAM72A_ENST00000468509",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c588"
+  },
+  "gene_name": "CRYAA2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c589"
+  },
+  "gene_name": "SIK1B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58a"
+  },
+  "gene_name": "CD24",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58b"
+  },
+  "gene_name": "CTAG1A_ENST00000593606",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58c"
+  },
+  "gene_name": "KCNE1B_ENST00000623803",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58d"
+  },
+  "gene_name": "TBC1D3E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58e"
+  },
+  "gene_name": "GAGE12F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c58f"
+  },
+  "gene_name": "DAZ1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c590"
+  },
+  "gene_name": "CCL4_ENST00000621626",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c591"
+  },
+  "gene_name": "DEFA1_ENST00000382679",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c592"
+  },
+  "gene_name": "CCL4L2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c593"
+  },
+  "gene_name": "CCL4",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c594"
+  },
+  "gene_name": "AC022167.5_ENST00000637237",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c595"
+  },
+  "gene_name": "TSPY4_ENST00000640033",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c596"
+  },
+  "gene_name": "FAM90A26",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c597"
+  },
+  "gene_name": "CENPVL2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c598"
+  },
+  "gene_name": "SRCIN1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c599"
+  },
+  "gene_name": "H3.Y",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59a"
+  },
+  "gene_name": "NCOA4_ENST00000581486",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59b"
+  },
+  "gene_name": "SMIM22_ENST00000586440",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59c"
+  },
+  "gene_name": "AC091980.2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59d"
+  },
+  "gene_name": "CCL14_ENST00000614009",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59e"
+  },
+  "gene_name": "CXorf51B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c59f"
+  },
+  "gene_name": "RBMY1A1_ENST00000303902",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a0"
+  },
+  "gene_name": "CDKN2AIPNL_ENST00000395009",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a1"
+  },
+  "gene_name": "DAZ2_ENST00000382306",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a2"
+  },
+  "gene_name": "PRR20C_ENST00000614894",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a3"
+  },
+  "gene_name": "PNMA8C",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a4"
+  },
+  "gene_name": "RDM1_ENST00000613308",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a5"
+  },
+  "gene_name": "MTRNR2L10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a6"
+  },
+  "gene_name": "RBMY1F",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a7"
+  },
+  "gene_name": "MARCOL",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a8"
+  },
+  "gene_name": "TP53TG3F_ENST00000617705",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5a9"
+  },
+  "gene_name": "CFC1B_ENST00000620207",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5aa"
+  },
+  "gene_name": "TEX13D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ab"
+  },
+  "gene_name": "HNF1B_ENST00000617272",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ac"
+  },
+  "gene_name": "C17orf50_ENST00000604830",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ad"
+  },
+  "gene_name": "PCGF2_ENST00000611883",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ae"
+  },
+  "gene_name": "PTPN20_ENST00000503851",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5af"
+  },
+  "gene_name": "PPIAL4E",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b0"
+  },
+  "gene_name": "NBPF26_ENST00000619748",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b1"
+  },
+  "gene_name": "SMIM27",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b2"
+  },
+  "gene_name": "MYO19_ENST00000610930",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b3"
+  },
+  "gene_name": "OR4F3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b4"
+  },
+  "gene_name": "SMIM10L2B",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b5"
+  },
+  "gene_name": "C11orf95_ENST00000546282",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b6"
+  },
+  "gene_name": "NPIPA8_ENST00000541810",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b7"
+  },
+  "gene_name": "C5orf63_ENST00000296662",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b8"
+  },
+  "gene_name": "TSPY8_ENST00000383005",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5b9"
+  },
+  "gene_name": "TINCR",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ba"
+  },
+  "gene_name": "CCL4L2_ENST00000610565",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5bb"
+  },
+  "gene_name": "HSFY1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5bc"
+  },
+  "gene_name": "RNF215_ENST00000619645",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5bd"
+  },
+  "gene_name": "DAZ4_ENST00000382314",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5be"
+  },
+  "gene_name": "ACTR3C_ENST00000613959",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5bf"
+  },
+  "gene_name": "MTRNR2L6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c0"
+  },
+  "gene_name": "RDM1_ENST00000612980",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c1"
+  },
+  "gene_name": "UBE2L5",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c2"
+  },
+  "gene_name": "FP565260.3",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c3"
+  },
+  "gene_name": "DUSP14_ENST00000613659",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c4"
+  },
+  "gene_name": "MTLN",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c5"
+  },
+  "gene_name": "SCYGR8",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c6"
+  },
+  "gene_name": "RBMY1J",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c7"
+  },
+  "gene_name": "CSAG2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c8"
+  },
+  "gene_name": "CCL16",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5c9"
+  },
+  "gene_name": "AC233724.6",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ca"
+  },
+  "gene_name": "SYNRG_ENST00000616179",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5cb"
+  },
+  "gene_name": "FP565260.3_ENST00000623795",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5cc"
+  },
+  "gene_name": "PCGF2_ENST00000618941",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5cd"
+  },
+  "gene_name": "AC010325.1_ENST00000562076",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5ce"
+  },
+  "gene_name": "KRTAP9-7",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5cf"
+  },
+  "gene_name": "AC106774.10",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d0"
+  },
+  "gene_name": "EIF3CL_ENST00000398944",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d1"
+  },
+  "gene_name": "GAGE12D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d2"
+  },
+  "gene_name": "C1orf232_ENST00000635463",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d3"
+  },
+  "gene_name": "TRIM49D2",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d4"
+  },
+  "gene_name": "DAZ3_ENST00000446723",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d5"
+  },
+  "gene_name": "TAF15_ENST00000603777",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d6"
+  },
+  "gene_name": "DAZ4_ENST00000440066",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d7"
+  },
+  "gene_name": "PGA3_ENST00000543125",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d8"
+  },
+  "gene_name": "ERVK3-1_ENST00000427361",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5d9"
+  },
+  "gene_name": "HNF1B_ENST00000614313",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5da"
+  },
+  "gene_name": "FAM236D",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+},{
+  "_id": {
+    "$oid": "61d66c43ae6bda0c6ea1c5db"
+  },
+  "gene_name": "ANKRD20A1",
+  "mutated_samples": "0",
+  "samples_tested": "2640"
+}]
