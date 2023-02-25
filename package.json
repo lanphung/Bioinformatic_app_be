@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --single-quote --trailing-comma all --tab-width 4 --write 'src/**/*.{js,json}'" 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,json}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "author": "",
   "license": "ISC",
+  "husky": {
+    "hook": {
+      "pre-commit": "int-staged"
+    }
+  },
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
     "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
     "mongoose": "^6.9.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
