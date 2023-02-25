@@ -2,15 +2,15 @@ const MutationColorectalGene = require('../../models/mutationGene/MutationColore
 
 class mutationColorectalGene {
     //GET
-    index(req, res){
-        MutationColorectalGene.find({}, function (err, MutationColorectalGene){
-            if(!err){
+    index(req, res) {
+        MutationColorectalGene.find({}, function (err, MutationColorectalGene) {
+            if (!err) {
                 res.json(MutationColorectalGene);
             } else {
-                res.status(500).json({error: 'Error!!!'});
+                res.status(500).json({ error: 'Error!!!' });
             }
-        })
+        });
     }
 }
 
-module.exports = new mutationColorectalGene;
+module.exports = new mutationColorectalGene();

@@ -7,7 +7,7 @@ class drugInformation {
             if(!err){
                 res.json(DrugInformation);
             } else {
-                res.status(500).json({error: 'Error!!!'});
+            res.status(500).json({error: 'Error!!!'});
             }
         })
     }

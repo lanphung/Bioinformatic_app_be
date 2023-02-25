@@ -12,7 +12,7 @@ const mutationThyroidRouter = require('./mutationGene/mutationThyroidGene');
 
 const drugInformationRouter = require('./DrugInformation');
 
-function routes (app) {
+function routes(app) {
     app.use('/normal-lung-gene', normalLungRouter);
     app.use('/normal-breast-gene', normalBreastRouter);
     app.use('/normal-colorectal-gene', normalColorectalRouter);
@@ -25,10 +25,10 @@ function routes (app) {
     app.use('/mutation-liver-gene', mutationLiverRouter);
     app.use('/mutation-thyroid-gene', mutationThyroidRouter);
 
-    app.use('/drugs-information',drugInformationRouter);
+    app.use('/drugs-information', drugInformationRouter);
     app.get('/', (req, res) => {
-        res.send('Hello World!')
-      })
+        res.send('Hello World!');
+    });
 }
 
 module.exports = routes;

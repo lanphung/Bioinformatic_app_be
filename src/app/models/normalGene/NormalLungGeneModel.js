@@ -7,6 +7,6 @@ const NormalLungGene = new Schema({
     samplesTested: Number,
     createAt: { type: Date, default: Date.now },
     updateAt: { type: Date, default: Date.now },
-  });
+});
 
 module.exports = mongoose.model('normal_lung_genes', NormalLungGene);

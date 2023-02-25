@@ -1,16 +1,16 @@
-const NormalLiverGene = require ('../../models/normalGene/NormalLiverGeneModel')
+const NormalLiverGene = require('../../models/normalGene/NormalLiverGeneModel');
 
 class normalLiverGene {
     //GET
-    index(req, res){
-        NormalLiverGene.find({}, function (err, NormalLiverGene){
-            if(!err){
+    index(req, res) {
+        NormalLiverGene.find({}, function (err, NormalLiverGene) {
+            if (!err) {
                 res.json(NormalLiverGene);
             } else {
-                res.status(500).json({error: 'Error!!!'});
+                res.status(500).json({ error: 'Error!!!' });
             }
-        })
+        });
     }
 }
 
-module.exports = new normalLiverGene;
+module.exports = new normalLiverGene();

@@ -13,6 +13,6 @@ const DrugInformation = new Schema({
     articles: Array,
     createAt: { type: Date, default: Date.now },
     updateAt: { type: Date, default: Date.now },
-  });
+});
 
 module.exports = mongoose.model('drugs_information', DrugInformation);
