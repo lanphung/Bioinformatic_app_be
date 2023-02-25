@@ -1,4 +1,4 @@
-const MutationLungGene = require('../models/MutationLungGeneModel');
+const MutationLungGene = require('../../models/mutationGene/MutationLungGeneModel');
 
 class mutationLungGene {
     //GET

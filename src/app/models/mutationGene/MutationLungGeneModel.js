@@ -9,4 +9,4 @@ const MutationLungGene = new Schema({
     updateAt: { type: Date, default: Date.now },
   });
 
-module.exports = mongoose.model('lung_mutation_genes', MutationLungGene);
+module.exports = mongoose.model('mutation_lung_genes', MutationLungGene);
