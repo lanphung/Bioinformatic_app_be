@@ -1,11 +1,11 @@
-const NormalBreastGene = require('../../models/normalGene/NormalBreastGeneModel');
+const normalBreastGeneModel = require('../../models/normalGene/NormalBreastGeneModel');
 
-class normalBreastGene {
+class normalBreastGeneController {
     //GET
-    index(req, res) {
-        NormalBreastGene.find({}, function (err, NormalBreastGene) {
+    findAll(req, res) {
+        normalBreastGeneModel.find({}, function (err, normalBreastGeneModel) {
             if (!err) {
-                res.json(NormalBreastGene);
+                res.json(normalBreastGeneModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }
@@ -13,4 +13,4 @@ class normalBreastGene {
     }
 }
 
-module.exports = new normalBreastGene();
+module.exports = new normalBreastGeneController();

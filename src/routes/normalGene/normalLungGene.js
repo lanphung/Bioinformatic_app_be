@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const normalLungGene = require('../../app/controllers/normalGene/NormalLungGeneController');
+const normalLungGeneController = require('../../app/controllers/normalGene/NormalLungGeneController');
 
-router.use('/', normalLungGene.index);
+router.get('/', normalLungGeneController.findAll);
 
 module.exports = router;

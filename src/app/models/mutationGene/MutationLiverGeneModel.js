@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const MutationLiverGene = new Schema({
+const mutationLiverGeneModel = new Schema({
     geneName: String,
     mutatedSamples: Number,
     samplesTested: Number,
@@ -9,4 +9,4 @@ const MutationLiverGene = new Schema({
     updateAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('mutation_liver_genes', MutationLiverGene);
+module.exports = mongoose.model('mutation_liver_genes', mutationLiverGeneModel);

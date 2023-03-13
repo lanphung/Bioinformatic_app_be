@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const NormalLungGene = new Schema({
+const normalLungGeneModel = new Schema({
     geneName: String,
     mutatedSamples: Number,
     samplesTested: Number,
@@ -9,4 +9,4 @@ const NormalLungGene = new Schema({
     updateAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('normal_lung_genes', NormalLungGene);
+module.exports = mongoose.model('normal_lung_genes', normalLungGeneModel);

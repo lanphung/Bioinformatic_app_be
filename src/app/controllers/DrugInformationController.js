@@ -1,16 +1,16 @@
-const DrugInformation = require('../models/DrugInformationModel');
+const drugInformationModel = require('../models/DrugInformationModel');
 
-class drugInformation {
+class drugInformationController {
     //GET
-    index(req, res){
-        DrugInformation.find({}, function (err, DrugInformation){
-            if(!err){
-                res.json(DrugInformation);
+    findAll(req, res) {
+        drugInformationModel.find({}, function (err, drugInformationModel) {
+            if (!err) {
+                res.json(drugInformationModel);
             } else {
-            res.status(500).json({error: 'Error!!!'});
+                res.status(500).json({ error: 'Error!!!' });
             }
-        })
+        });
     }
 }
 
-module.exports = new drugInformation;
+module.exports = new drugInformationController();

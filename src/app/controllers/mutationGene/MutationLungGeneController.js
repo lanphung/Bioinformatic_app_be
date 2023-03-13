@@ -1,11 +1,11 @@
-const MutationLungGene = require('../../models/mutationGene/MutationLungGeneModel');
+const mutationLungGeneModel = require('../../models/mutationGene/MutationLungGeneModel');
 
-class mutationLungGene {
+class mutationLungGeneController {
     //GET
-    index(req, res) {
-        MutationLungGene.find({}, function (err, MutationLungGene) {
+    findAll(req, res) {
+        mutationLungGeneModel.find({}, function (err, mutationLungGeneModel) {
             if (!err) {
-                res.json(MutationLungGene);
+                res.json(mutationLungGeneModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }
@@ -13,4 +13,4 @@ class mutationLungGene {
     }
 }
 
-module.exports = new mutationLungGene();
+module.exports = new mutationLungGeneController();

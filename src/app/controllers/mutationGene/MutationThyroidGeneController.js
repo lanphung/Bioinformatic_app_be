@@ -1,16 +1,19 @@
-const MutationThyroidGene = require('../../models/mutationGene/MutationThyroidGeneModel');
+const mutationThyroidGeneModel = require('../../models/mutationGene/MutationThyroidGeneModel');
 
-class mutationThyroidGene {
+class mutationThyroidGeneController {
     //GET
-    index(req, res) {
-        MutationThyroidGene.find({}, function (err, MutationThyroidGene) {
-            if (!err) {
-                res.json(MutationThyroidGene);
-            } else {
-                res.status(500).json({ error: 'Error!!!' });
-            }
-        });
+    findAll(req, res) {
+        mutationThyroidGeneModel.find(
+            {},
+            function (err, mutationThyroidGeneModel) {
+                if (!err) {
+                    res.json(mutationThyroidGeneModel);
+                } else {
+                    res.status(500).json({ error: 'Error!!!' });
+                }
+            },
+        );
     }
 }
 
-module.exports = new mutationThyroidGene();
+module.exports = new mutationThyroidGeneController();

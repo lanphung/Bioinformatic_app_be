@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const drugInformation = require('../app/controllers/DrugInformationController');
+const drugInformationController = require('../app/controllers/DrugInformationController');
 
-router.use('/', drugInformation.index);
+router.get('/', drugInformationController.findAll);
 
 module.exports = router;

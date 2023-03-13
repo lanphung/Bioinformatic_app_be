@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const NormalColorectalGene = new Schema({
+const normalColorectalGeneModel = new Schema({
     geneName: String,
     mutatedSamples: Number,
     samplesTested: Number,
@@ -11,5 +11,5 @@ const NormalColorectalGene = new Schema({
 
 module.exports = mongoose.model(
     'normal_colorectal_genes',
-    NormalColorectalGene,
+    normalColorectalGeneModel,
 );

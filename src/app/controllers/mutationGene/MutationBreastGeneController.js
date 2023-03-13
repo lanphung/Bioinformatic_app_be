@@ -1,16 +1,19 @@
-const MutationBreastGene = require('../../models/mutationGene/MutationBreastGeneModel');
+const mutationBreastGeneModel = require('../../models/mutationGene/MutationBreastGeneModel');
 
-class mutationBreastGene {
+class mutationBreastGeneController {
     //GET
-    index(req, res) {
-        MutationBreastGene.find({}, function (err, MutationBreastGene) {
-            if (!err) {
-                res.json(MutationBreastGene);
-            } else {
-                res.status(500).json({ error: 'Error!!!' });
-            }
-        });
+    findAll(req, res) {
+        mutationBreastGeneModel.find(
+            {},
+            function (err, mutationBreastGeneModel) {
+                if (!err) {
+                    res.json(mutationBreastGeneModel);
+                } else {
+                    res.status(500).json({ error: 'Error!!!' });
+                }
+            },
+        );
     }
 }
 
-module.exports = new mutationBreastGene();
+module.exports = new mutationBreastGeneController();

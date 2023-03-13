@@ -1,16 +1,19 @@
-const NormalColorectalGene = require('../../models/normalGene/NormalColorectalGeneModel');
+const normalColorectalGeneModel = require('../../models/normalGene/NormalColorectalGeneModel');
 
-class normalColorectalGene {
+class normalColorectalGeneController {
     //GET
-    index(req, res) {
-        NormalColorectalGene.find({}, function (err, NormalColorectalGene) {
-            if (!err) {
-                res.json(NormalColorectalGene);
-            } else {
-                res.status(500).json({ error: 'Error!!!' });
-            }
-        });
+    findAll(req, res) {
+        normalColorectalGeneModel.find(
+            {},
+            function (err, normalColorectalGeneModel) {
+                if (!err) {
+                    res.json(normalColorectalGeneModel);
+                } else {
+                    res.status(500).json({ error: 'Error!!!' });
+                }
+            },
+        );
     }
 }
 
-module.exports = new normalColorectalGene();
+module.exports = new normalColorectalGeneController();

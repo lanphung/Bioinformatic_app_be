@@ -1,11 +1,11 @@
-const NormalThyroidGene = require('../../models/normalGene/NormalThyroidGeneModel');
+const normalThyroidGeneModel = require('../../models/normalGene/NormalThyroidGeneModel');
 
-class normalThyroidGene {
+class normalThyroidGeneController {
     //GET
-    index(req, res) {
-        NormalThyroidGene.find({}, function (err, NormalThyroidGene) {
+    findAll(req, res) {
+        normalThyroidGeneModel.find({}, function (err, normalThyroidGeneModel) {
             if (!err) {
-                res.json(NormalThyroidGene);
+                res.json(normalThyroidGeneModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }
@@ -13,4 +13,4 @@ class normalThyroidGene {
     }
 }
 
-module.exports = new normalThyroidGene();
+module.exports = new normalThyroidGeneController();

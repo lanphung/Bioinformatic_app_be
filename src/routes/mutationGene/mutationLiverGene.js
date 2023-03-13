@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const mutationLiverGene = require('../../app/controllers/mutationGene/MutationLiverGeneController');
+const mutationLiverGeneController = require('../../app/controllers/mutationGene/MutationLiverGeneController');
 
-router.use('/', mutationLiverGene.index);
+router.get('/', mutationLiverGeneController.findAll);
 
 module.exports = router;

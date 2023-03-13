@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const DrugInformation = new Schema({
+const drugInformationModel = new Schema({
     level: String,
     gene: String,
     alteration: String,
@@ -15,4 +15,4 @@ const DrugInformation = new Schema({
     updateAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('drugs_information', DrugInformation);
+module.exports = mongoose.model('drugs_information', drugInformationModel);
