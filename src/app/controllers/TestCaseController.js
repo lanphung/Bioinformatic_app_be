@@ -1,7 +1,7 @@
 const testCaseModel = require('../models/TestCaseModel');
 
 class testCaseController {
-    findAll(req, res) {
+    findAll(res) {
         testCaseModel.find({}, function (err, testCaseModel) {
             if (!err) {
                 res.json(testCaseModel);
@@ -11,7 +11,7 @@ class testCaseController {
         });
     }
 
-    findByID(req, res, next) {
+    findByID(req, res) {
         testCaseModel.findById(req.params.id, (err, item) => {
             if (err) {
                 console.log(err);
@@ -29,6 +29,27 @@ class testCaseController {
             .deleteOne({ _id: req.params.id })
             .then(() => res.redirect('back'))
             .catch(next);
+    }
+
+    addTest(req, res) {
+        const testCaseBody = req.body;
+        const newTestData = new testCaseModel({
+            patients: String(testCaseBody?.patients),
+            sams: String(testCaseBody?.sams),
+        });
+        newTestData
+            .save()
+            .then((test) => {
+                console.log('Added new test case to database:', test);
+                res.status(201).json({
+                    message: 'Test case added successfully',
+                    test,
+                });
+            })
+            .catch((err) => {
+                console.error('Error adding test case to database:', err);
+                res.status(500).json({ error: 'Failed to add test case' });
+            });
     }
 }
 

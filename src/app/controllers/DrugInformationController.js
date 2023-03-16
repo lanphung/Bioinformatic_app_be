@@ -11,6 +11,19 @@ class drugInformationController {
             }
         });
     }
+
+    findByID(req, res, next) {
+        drugInformationModel.findById(req.params.id, (err, item) => {
+            if (err) {
+                console.log(err);
+                res.status(500).send(err);
+            } else if (!item) {
+                res.status(404).send('Item not found');
+            } else {
+                res.send(item);
+            }
+        });
+    }
 }
 
 module.exports = new drugInformationController();

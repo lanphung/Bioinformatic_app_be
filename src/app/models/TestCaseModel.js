@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const testCaseModel = new Schema({
-    patients: String,
-    sams: String,
+    patients: { type: String },
+    sams: { type: String },
     run: {
         id: Number,
         runId: String,
