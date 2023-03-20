@@ -1,7 +1,7 @@
 const testCaseModel = require('../models/TestCaseModel');
 
 class testCaseController {
-    findAll(res) {
+    findAll(req, res) {
         testCaseModel.find({}, function (err, testCaseModel) {
             if (!err) {
                 res.json(testCaseModel);
@@ -33,10 +33,32 @@ class testCaseController {
 
     addTest(req, res) {
         const testCaseBody = req.body;
+        console.log(testCaseBody);
         const newTestData = new testCaseModel({
             patients: String(testCaseBody?.patients),
             sams: String(testCaseBody?.sams),
+            run: {
+                id: Number(testCaseBody?.run.id),
+                runId: String(testCaseBody?.run.runId),
+                status: String(testCaseBody?.run.status),
+                finishDate: String(testCaseBody?.run.finishDate),
+                totalBases: String(testCaseBody?.run.totalBases),
+                keySignal: String(testCaseBody?.run.keySignal),
+                totalReads: String(testCaseBody?.run.totalReads),
+                usableReads: String(testCaseBody?.run.usableReads),
+                meanLength: String(testCaseBody?.run.meanLength),
+                medianLength: String(testCaseBody?.run.medianLength),
+                modeLength: String(testCaseBody?.run.modeLength),
+                ISPLoading: String(testCaseBody?.run.ISPLoading),
+                polyclonal: String(testCaseBody?.run.polyclonal),
+                lowQuanlity: String(testCaseBody?.run.lowQuanlity),
+                score: String(testCaseBody?.run.score),
+                ISPLoadingPic: String(testCaseBody?.run.ISPLoadingPic),
+                quanlityPic: String(testCaseBody?.run.quanlityPic),
+                lengthPic: String(testCaseBody?.run.lengthPic),
+            },
         });
+        console.log(newTestData);
         newTestData
             .save()
             .then((test) => {

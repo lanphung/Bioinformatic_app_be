@@ -14,6 +14,7 @@ const drugInformationRouter = require('./DrugInformation');
 const testCaseRouter = require('./TestCase');
 const mutationRouter = require('./Mutation');
 const geneRouter = require('./Gene');
+const userRouter = require('./User');
 
 function routes(app) {
     app.use('/normal-lung-gene', normalLungRouter);
@@ -32,6 +33,7 @@ function routes(app) {
     app.use('/test-case', testCaseRouter);
     app.use('/mutation', mutationRouter);
     app.use('/gene', geneRouter);
+    app.use('/user', userRouter);
 
     app.get('/', (req, res) => {
         res.send('Hello World!');
