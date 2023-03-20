@@ -8,7 +8,7 @@ const db = require('./src/config/db');
 
 const cors = require('cors');
 const corsOptions ={
-    origin:'http://localhost:8000', 
+    origin:'http://172.18.0.4:8000', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 app.use(function (req, res, next) {
 
   // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://172.18.0.4:8000');
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
