@@ -1,18 +1,6 @@
-// const mongoose = require('mongoose');
-
-// async function connect() {
-//     try {
-//         await mongoose.connect('mongodb+srv://root:o791L39PiCokX2tX@cluster0.0zltnif.mongodb.net/?retryWrites=true&w=majority');
-//         console.log('Connect successfully !');
-//     } catch (error) {
-//         console.log('Connect failure !');
-//         console.log(error);
-//     }
-// }
-
 const mongoose = require('mongoose');
-const URL =
-    'mongodb+srv://root:o791L39PiCokX2tX@cluster0.0zltnif.mongodb.net/?retryWrites=true&w=majority';
+const URL = "mongodb+srv://root:o791L39PiCokX2tX@cluster0.0zltnif.mongodb.net/?retryWrites=true&w=majority";
+// const URL = 'mongodb://localhost:27017/Informatic_Lab';
 
 const connect = async () => {
     try {

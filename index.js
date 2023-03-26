@@ -1,14 +1,16 @@
 const express = require('express');
 const morgan = require('morgan');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+const clientURL = process.env.CLIENT_URL || 'http://localhost:8080';
 
 const route = require('./src/routes');
 const db = require('./src/config/db');
 
+
 const cors = require('cors');
 const corsOptions ={
-    origin:'http://172.18.0.4:8000', 
+    origin: clientURL, 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
@@ -17,7 +19,7 @@ app.use(cors(corsOptions));
 app.use(function (req, res, next) {
 
   // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'http://172.18.0.4:8000');
+  res.setHeader('Access-Control-Allow-Origin', clientURL);
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -40,5 +42,6 @@ route(app);
 app.use(morgan('combined'))
 
 app.listen(port, () => {
-  console.log(`App is running at http://localhost:${port}`)
+  console.log(`App is running at http://localhost:${port}`);
+  console.log(clientURL);
 })
