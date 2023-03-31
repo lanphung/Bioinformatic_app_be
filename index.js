@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const port = process.env.PORT || 3000;
-const clientURL = process.env.CLIENT_URL || 'http://localhost:8080';
+const clientURL = 'http://172.18.0.4:8000' //'http://103.124.93.57'  ;
 
 const route = require('./src/routes');
 const db = require('./src/config/db');
@@ -44,4 +44,5 @@ app.use(morgan('combined'))
 app.listen(port, () => {
   console.log(`App is running at http://localhost:${port}`);
   console.log(clientURL);
+  console.log(process.env.CLIENT_URL);
 })

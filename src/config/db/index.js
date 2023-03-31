@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const URL = "mongodb+srv://root:o791L39PiCokX2tX@cluster0.0zltnif.mongodb.net/?retryWrites=true&w=majority";
+const URL =
+    'mongodb+srv://root:AVkqPYy7QKS26JuT@bioinformatic.ulibahi.mongodb.net/?retryWrites=true&w=majority';
 // const URL = 'mongodb://localhost:27017/Informatic_Lab';
 
 const connect = async () => {

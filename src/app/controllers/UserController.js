@@ -16,8 +16,12 @@ class userController {
         }
 
         const token = jwt.sign({ id: user._id }, 'secret', { expiresIn: '1h' });
+        const isLogin = {
+            status: 'ok',
+        };
 
         res.json({ token });
+        res.json({ isLogin });
     }
 
     register(req, res) {
@@ -26,7 +30,9 @@ class userController {
         const newUserData = new userModel({
             email: String(userBody?.email),
             password: String(userBody?.password),
+            name: String(userBody?.name),
             access: String(userBody?.access),
+            phone: String(userBody?.phone),
         });
         newUserData
             .save()

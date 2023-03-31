@@ -3,12 +3,32 @@ const mutationModel = require('../models/MutationModel');
 class mutationController {
     //GET
     findAll(req, res) {
-        mutationModel.find({}, function (err, mutationModel) {
-            if (!err) {
-                res.json(mutationModel);
-            } else {
-                res.status(500).json({ error: 'Error!!!' });
+        const page = parseInt(req.query.page) || 1;
+        const limit = parseInt(req.query.limit) || 10;
+        const skip = (page - 1) * limit;
+
+        mutationModel.countDocuments({}, function (err, count) {
+            if (err) {
+                return res.status(500).json({ error: 'Error!!!' });
             }
+
+            mutationModel
+                .find({})
+                .skip(skip)
+                .limit(limit)
+                .exec(function (err, mutationModels) {
+                    if (err) {
+                        return res.status(500).json({ error: 'Error!!!' });
+                    }
+
+                    const totalPages = Math.ceil(count / limit);
+
+                    res.json({
+                        mutationModels,
+                        currentPage: page,
+                        totalPages,
+                    });
+                });
         });
     }
 

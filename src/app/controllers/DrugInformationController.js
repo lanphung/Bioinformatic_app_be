@@ -3,12 +3,32 @@ const drugInformationModel = require('../models/DrugInformationModel');
 class drugInformationController {
     //GET
     findAll(req, res) {
-        drugInformationModel.find({}, function (err, drugInformationModel) {
-            if (!err) {
-                res.json(drugInformationModel);
-            } else {
-                res.status(500).json({ error: 'Error!!!' });
+        const page = parseInt(req.query.page) || 1;
+        const limit = parseInt(req.query.limit) || 10;
+        const skip = (page - 1) * limit;
+
+        drugInformationModel.countDocuments({}, function (err, count) {
+            if (err) {
+                return res.status(500).json({ error: 'Error!!!' });
             }
+
+            drugInformationModel
+                .find({})
+                .skip(skip)
+                .limit(limit)
+                .exec(function (err, drugInformationModels) {
+                    if (err) {
+                        return res.status(500).json({ error: 'Error!!!' });
+                    }
+
+                    const totalPages = Math.ceil(count / limit);
+
+                    res.json({
+                        drugInformationModels,
+                        currentPage: page,
+                        totalPages,
+                    });
+                });
         });
     }
 

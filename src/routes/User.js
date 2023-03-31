@@ -4,6 +4,7 @@ const userController = require('../app/controllers/UserController');
 const bodyParser = require('body-parser');
 
 router.use(bodyParser.json());
+router.get('/login', userController.findUser);
 router.post('/login', userController.findUser);
 router.post('/register', userController.register);
 

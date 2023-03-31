@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 router.use(bodyParser.json());
 
-router.get('/', testCaseController.findAll);
+router.get('/', testCaseController.findAPage);
 router.delete('/delete/:id', testCaseController.delete);
 router.get('/find/:id', testCaseController.findByID);
 router.post('/add', testCaseController.addTest);
