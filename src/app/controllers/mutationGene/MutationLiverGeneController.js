@@ -2,6 +2,16 @@ const mutationLiverGeneModel = require('../../models/mutationGene/MutationLiverG
 
 class mutationLiverGeneController {
     //GET
+    findAllTop20(req, res) {
+        mutationLiverGeneModel.find({}, function (err, mutationLiverGeneModel) {
+            if (!err) {
+                res.json(mutationLiverGeneModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
     findAll(req, res) {
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;

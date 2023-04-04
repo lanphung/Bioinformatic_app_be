@@ -2,6 +2,16 @@ const mutationThyroidGeneModel = require('../../models/mutationGene/MutationThyr
 
 class mutationThyroidGeneController {
     //GET
+    findAllTop20(req, res) {
+        mutationThyroidGeneModel.find({}, function (err, mutationThyroidGeneModel) {
+            if (!err) {
+                res.json(mutationThyroidGeneModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
     findAll(req, res) {
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;

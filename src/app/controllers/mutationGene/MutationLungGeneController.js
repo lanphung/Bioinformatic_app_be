@@ -2,6 +2,17 @@ const mutationLungGeneModel = require('../../models/mutationGene/MutationLungGen
 
 class mutationLungGeneController {
     //GET
+    findAllTop20(req, res) {
+        mutationLungGeneModel.find({}, function (err, mutationLungGeneModel) {
+            if (!err) {
+                res.json(mutationLungGeneModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
+
     findAll(req, res) {
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;

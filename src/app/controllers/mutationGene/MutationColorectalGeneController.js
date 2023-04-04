@@ -2,6 +2,16 @@ const mutationColorectalGeneModel = require('../../models/mutationGene/MutationC
 
 class mutationColorectalGeneController {
     //GET
+    findAllTop20(req, res) {
+        mutationColorectalGeneModel.find({}, function (err, mutationColorectalGeneModel) {
+            if (!err) {
+                res.json(mutationColorectalGeneModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
     findAll(req, res) {
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;

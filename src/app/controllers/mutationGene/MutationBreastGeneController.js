@@ -2,6 +2,16 @@ const mutationBreastGeneModel = require('../../models/mutationGene/MutationBreas
 
 class mutationBreastGeneController {
     //GET
+    findAllTop20(req, res) {
+        mutationBreastGeneModel.find({}, function (err, mutationBreastGeneModel) {
+            if (!err) {
+                res.json(mutationBreastGeneModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
     findAll(req, res) {
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;
