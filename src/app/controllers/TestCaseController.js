@@ -103,6 +103,19 @@ class testCaseController {
                 res.status(500).json({ error: 'Failed to add test case' });
             });
     }
+
+    // app.post('/upload', upload.single('file'), async (req, res) => {
+    //     try {
+    //       const fileData = await fs.promises.readFile(req.file.path, 'utf-8');
+    //       const jsonData = JSON.parse(fileData);
+    //       const user = new User(jsonData);
+    //       await user.save();
+    //       res.send('File uploaded and saved to database');
+    //     } catch (err) {
+    //       console.error(err);
+    //       res.status(500).send('Internal Server Error');
+    //     }
+    //   });
 }
 
 module.exports = new testCaseController();
