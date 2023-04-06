@@ -62,31 +62,31 @@ class testCaseController {
     }
 
     addTest(req, res) {
+        console.log(req.body);
         const testCaseBody = req.body;
-        console.log(testCaseBody);
         const newTestData = new testCaseModel({
             patients: String(testCaseBody?.patients),
             sams: String(testCaseBody?.sams),
-            run: {
-                id: Number(testCaseBody?.run.id),
-                runId: String(testCaseBody?.run.runId),
-                status: String(testCaseBody?.run.status),
-                finishDate: String(testCaseBody?.run.finishDate),
-                totalBases: String(testCaseBody?.run.totalBases),
-                keySignal: String(testCaseBody?.run.keySignal),
-                totalReads: String(testCaseBody?.run.totalReads),
-                usableReads: String(testCaseBody?.run.usableReads),
-                meanLength: String(testCaseBody?.run.meanLength),
-                medianLength: String(testCaseBody?.run.medianLength),
-                modeLength: String(testCaseBody?.run.modeLength),
-                ISPLoading: String(testCaseBody?.run.ISPLoading),
-                polyclonal: String(testCaseBody?.run.polyclonal),
-                lowQuanlity: String(testCaseBody?.run.lowQuanlity),
-                score: String(testCaseBody?.run.score),
-                ISPLoadingPic: String(testCaseBody?.run.ISPLoadingPic),
-                quanlityPic: String(testCaseBody?.run.quanlityPic),
-                lengthPic: String(testCaseBody?.run.lengthPic),
-            },
+            // run: {
+            //     id: Number(testCaseBody?.run.id),
+            //     runId: String(testCaseBody?.run.runId),
+            //     status: String(testCaseBody?.run.status),
+            //     finishDate: String(testCaseBody?.run.finishDate),
+            //     totalBases: String(testCaseBody?.run.totalBases),
+            //     keySignal: String(testCaseBody?.run.keySignal),
+            //     totalReads: String(testCaseBody?.run.totalReads),
+            //     usableReads: String(testCaseBody?.run.usableReads),
+            //     meanLength: String(testCaseBody?.run.meanLength),
+            //     medianLength: String(testCaseBody?.run.medianLength),
+            //     modeLength: String(testCaseBody?.run.modeLength),
+            //     ISPLoading: String(testCaseBody?.run.ISPLoading),
+            //     polyclonal: String(testCaseBody?.run.polyclonal),
+            //     lowQuanlity: String(testCaseBody?.run.lowQuanlity),
+            //     score: String(testCaseBody?.run.score),
+            //     ISPLoadingPic: String(testCaseBody?.run.ISPLoadingPic),
+            //     quanlityPic: String(testCaseBody?.run.quanlityPic),
+            //     lengthPic: String(testCaseBody?.run.lengthPic),
+            // },
         });
         console.log(newTestData);
         newTestData
@@ -104,18 +104,19 @@ class testCaseController {
             });
     }
 
-    // app.post('/upload', upload.single('file'), async (req, res) => {
+    // addTest(req, res) {
     //     try {
-    //       const fileData = await fs.promises.readFile(req.file.path, 'utf-8');
-    //       const jsonData = JSON.parse(fileData);
-    //       const user = new User(jsonData);
-    //       await user.save();
-    //       res.send('File uploaded and saved to database');
-    //     } catch (err) {
-    //       console.error(err);
-    //       res.status(500).send('Internal Server Error');
+    //         const fileData = fs.promises.readFile(req.file.path, 'utf-8');
+    //         const jsonData = JSON.parse(fileData);
+    //         const testCase = new testCaseModel(jsonData);
+    //         testCase.save();
+    //         res.send('File uploaded and saved to database');
+    //         console.log(fileData);
+    //     } catch (error) {
+    //         console.error(err);
+    //         res.status(500).send('Internal Server Error');
     //     }
-    //   });
+    // }
 }
 
 module.exports = new testCaseController();
