@@ -1,35 +1,16 @@
 const mutationBreastGeneModel = require('../../models/mutationGene/MutationBreastGeneModel');
+const top20BreastModel = require('../../models/top20Gene/Top20BreastModel');
 
 class mutationBreastGeneController {
     //GET
-
-    findByGeneName(req, res) {
-        const geneName = req.query.name;
-
-        const geneInfor = mutationBreastGeneModel.findOne(
-            (gene) => gene.name === geneName,
-        );
-
-        console.log(geneInfor);
-
-        if (!geneInfor) {
-            return res.status(404).json({ message: 'Gene not found!' });
-        }
-
-        res.json(geneInfor);
-    }
-
     findAllTop20(req, res) {
-        mutationBreastGeneModel.find(
-            {},
-            function (err, mutationBreastGeneModel) {
-                if (!err) {
-                    res.json(mutationBreastGeneModel);
-                } else {
-                    res.status(500).json({ error: 'Error!!!' });
-                }
-            },
-        );
+        top20BreastModel.find({}, function (err, top20BreastModel) {
+            if (!err) {
+                res.json(top20BreastModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
     }
 
     findAll(req, res) {

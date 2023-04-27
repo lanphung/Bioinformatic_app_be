@@ -19,9 +19,14 @@ class userController {
         const isLogin = {
             status: 'ok',
         };
-
+        const userInfor = {
+            status: 'ok',
+            type: 'account',
+            currentAuthority: user.access,
+        };
         res.json({ token });
-        res.json({ isLogin });
+        res.json({ userInfor });
+        console.log(userInfor);
     }
 
     register(req, res) {

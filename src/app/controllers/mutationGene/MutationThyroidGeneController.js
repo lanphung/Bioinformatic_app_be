@@ -1,11 +1,12 @@
 const mutationThyroidGeneModel = require('../../models/mutationGene/MutationThyroidGeneModel');
+const top20ThyroidModel = require('../../models/top20Gene/Top20ThyroidModel');
 
 class mutationThyroidGeneController {
     //GET
     findAllTop20(req, res) {
-        mutationThyroidGeneModel.find({}, function (err, mutationThyroidGeneModel) {
+        top20ThyroidModel.find({}, function (err, top20ThyroidModel) {
             if (!err) {
-                res.json(mutationThyroidGeneModel);
+                res.json(top20ThyroidModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }

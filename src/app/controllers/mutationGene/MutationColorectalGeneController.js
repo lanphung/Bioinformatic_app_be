@@ -1,11 +1,12 @@
 const mutationColorectalGeneModel = require('../../models/mutationGene/MutationColorectalGeneModel');
+const top20ColorectalModel = require('../../models/top20Gene/Top20ColorectalModel');
 
 class mutationColorectalGeneController {
     //GET
     findAllTop20(req, res) {
-        mutationColorectalGeneModel.find({}, function (err, mutationColorectalGeneModel) {
+        top20ColorectalModel.find({}, function (err, top20ColorectalModel) {
             if (!err) {
-                res.json(mutationColorectalGeneModel);
+                res.json(top20ColorectalModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }

@@ -1,11 +1,12 @@
 const mutationLiverGeneModel = require('../../models/mutationGene/MutationLiverGeneModel');
+const top20LiverModel = require('../../models/top20Gene/Top20LiverModel');
 
 class mutationLiverGeneController {
     //GET
     findAllTop20(req, res) {
-        mutationLiverGeneModel.find({}, function (err, mutationLiverGeneModel) {
+        top20LiverModel.find({}, function (err, top20LiverModel) {
             if (!err) {
-                res.json(mutationLiverGeneModel);
+                res.json(top20LiverModel);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }
