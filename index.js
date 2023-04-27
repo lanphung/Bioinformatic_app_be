@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const port = process.env.PORT || 3000;
-const clientURL =  'http://172.18.0.4:8000'//'http://103.124.93.57'  ;
+const clientURL =  'http://103.124.93.57'  //'http://172.18.0.4:8000';
 
 const route = require('./src/routes');
 const db = require('./src/config/db');
