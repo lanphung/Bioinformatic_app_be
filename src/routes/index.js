@@ -15,6 +15,7 @@ const testCaseRouter = require('./TestCase');
 const mutationRouter = require('./Mutation');
 const geneRouter = require('./Gene');
 const userRouter = require('./User');
+const healthRecordRouter = require('./HealthRecord');
 
 function routes(app) {
     app.use('/normal-lung-gene', normalLungRouter);
@@ -34,6 +35,7 @@ function routes(app) {
     app.use('/mutation', mutationRouter);
     app.use('/gene', geneRouter);
     app.use('/user', userRouter);
+    app.use('/', healthRecordRouter);
 
     app.get('/', (req, res) => {
         res.send('Hello World!');
