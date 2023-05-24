@@ -41,6 +41,42 @@ class testCaseController {
         });
     }
 
+    // findAPage = async (req, res) => {
+    //     try {
+    //       const page = parseInt(req.query.page) || 1;
+    //       const limit = parseInt(req.query.limit) || 10;
+    //       const skip = (page - 1) * limit;
+
+    //       const count = await testCaseModel.countDocuments({});
+
+    //       const totalPages = Math.ceil(count / limit);
+
+    //       const records = await testCaseModel
+    //         .find({})
+    //         .select('patients run sams _id')
+    //         .skip(skip)
+    //         .limit(limit)
+    //         .lean();
+
+    //       const mappedRecords = records.map((record) => ({
+    //         runID: record.run.id,
+    //         _id: record._id,
+    //         name: record.patients,
+    //         samples: record.sams,
+    //       }));
+
+    //       return res.status(200).json({
+    //         success: true,
+    //         data: mappedRecords,
+    //         totalPages: totalPages,
+    //         currentPage: page,
+    //       });
+    //     } catch (error) {
+    //       console.error(error);
+    //       return res.status(500).json({ error: 'Error!!!' });
+    //     }
+    //   };
+
     findByID(req, res) {
         testCaseModel.findById(req.params.id, (err, item) => {
             if (err) {

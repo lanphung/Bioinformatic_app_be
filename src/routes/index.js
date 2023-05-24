@@ -17,6 +17,7 @@ const geneRouter = require('./Gene');
 const userRouter = require('./User');
 const healthRecordRouter = require('./HealthRecord');
 
+const downloadRouter = require('./Download');
 const uploadFileRouter = require('./UploadFile');
 
 function routes(app) {
@@ -38,6 +39,8 @@ function routes(app) {
     app.use('/gene', geneRouter);
     app.use('/user', userRouter);
     app.use('/upload', uploadFileRouter);
+
+    app.use('/download', downloadRouter);
     app.use('/', healthRecordRouter);
 
     app.get('/', (req, res) => {
