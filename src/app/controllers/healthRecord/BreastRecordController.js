@@ -1,13 +1,13 @@
-const healthRecordModel = require('../models/HealthRecordModel');
+const BreastRecordModel = require('../../models/healthRecord/BreastRecordModel');
 
-class HealthRecordController {
+class BreastRecordController {
     save = async (req, res) => {
         try {
-            let newHealthRecord = await healthRecordModel.findById(req.body?._id);
+            let newHealthRecord = await BreastRecordModel.findById(req.body?._id);
             // console.log(newHealthRecord)
             if (!newHealthRecord) {
                 console.log('no record');
-                newHealthRecord = new healthRecordModel();
+                newHealthRecord = new BreastRecordModel();
             }
             newHealthRecord.healthRecordId = req.body.healthRecordId;
             newHealthRecord.generalInfo = req.body.generalInfo;
@@ -36,7 +36,7 @@ class HealthRecordController {
 
     getById = async (req, res) => {
         try {
-            const record = await healthRecordModel.findById(req.body.id);
+            const record = await BreastRecordModel.findById(req.body.id);
             console.log(req.body.id);
             return res.status(200).json({
                 success: true,
@@ -59,7 +59,7 @@ class HealthRecordController {
     deleteById = async (req, res) => {
         try {
             console.log('delete ', req.body.id);
-            await healthRecordModel.deleteOne({ _id: req.body.id });
+            await BreastRecordModel.deleteOne({ _id: req.body.id });
             return res.status(200).json({ success: true, message: 'Xóa bệnh án thành công' });
         } catch (error) {
             console.log(error);
@@ -70,7 +70,7 @@ class HealthRecordController {
     };
     getAll = async (req, res) => {
         try {
-            const records = (await healthRecordModel.find({}).select('patientInfo typeHealthRecord healthRecordId')).map((record) => {
+            const records = (await BreastRecordModel.find({}).select('patientInfo typeHealthRecord healthRecordId')).map((record) => {
                 return {
                     fullname: record.patientInfo.fullname,
                     dob: record.patientInfo.dob,
@@ -97,7 +97,7 @@ class HealthRecordController {
             healthRecordId = req.body?.healthRecordId || '.*';
             if (typeHealthRecord === "ALL") typeHealthRecord = '.*';
             console.log(healthRecordId, typeHealthRecord)
-            let record = (await healthRecordModel.find({ typeHealthRecord: new RegExp(typeHealthRecord), healthRecordId: new RegExp(healthRecordId) }).select('patientInfo typeHealthRecord healthRecordId')).map((record) => {
+            let record = (await BreastRecordModel.find({ typeHealthRecord: new RegExp(typeHealthRecord), healthRecordId: new RegExp(healthRecordId) }).select('patientInfo typeHealthRecord healthRecordId')).map((record) => {
                 return {
                     fullname: record.patientInfo.fullname,
                     dob: record.patientInfo.dob,
@@ -122,4 +122,4 @@ class HealthRecordController {
 
 }
 
-module.exports = new HealthRecordController();
+module.exports = new BreastRecordController();
