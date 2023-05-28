@@ -93,6 +93,7 @@ class drugInformationController {
                 articles: record.articles.map((articles) => articles.pmid),
             }));
 
+            console.log(mappedRecords);
             return res.status(200).json({
                 success: true,
                 data: mappedRecords,

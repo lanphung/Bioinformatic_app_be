@@ -4,10 +4,8 @@ const dataDirectory = path.join(__dirname, '../../../data/');
 class downloadController {
     //GET
     download(req, res) {
-        const filePath = path.join(
-            dataDirectory,
-            'IonXpress_084_rawlib.basecaller.gz',
-        );
+        const fileName = req.query.fileName;
+        const filePath = path.join(dataDirectory, `${fileName}.gz`);
         res.download(filePath, (err) => {
             if (err) {
                 console.error('Lỗi khi tải file:', err);

@@ -1,4 +1,14 @@
 const testCaseModel = require('../models/TestCaseModel');
+const express = require('express');
+const app = express();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const multer = require('multer');
+const path = require('path');
+
+const dataDirectory = path.join(__dirname, '../../../data/');
 
 class testCaseController {
     findAll(req, res) {
@@ -101,28 +111,10 @@ class testCaseController {
         console.log(req.body);
         const testCaseBody = req.body;
         const newTestData = new testCaseModel({
-            patients: String(testCaseBody?.patients),
-            sams: String(testCaseBody?.sams),
-            // run: {
-            //     id: Number(testCaseBody?.run.id),
-            //     runId: String(testCaseBody?.run.runId),
-            //     status: String(testCaseBody?.run.status),
-            //     finishDate: String(testCaseBody?.run.finishDate),
-            //     totalBases: String(testCaseBody?.run.totalBases),
-            //     keySignal: String(testCaseBody?.run.keySignal),
-            //     totalReads: String(testCaseBody?.run.totalReads),
-            //     usableReads: String(testCaseBody?.run.usableReads),
-            //     meanLength: String(testCaseBody?.run.meanLength),
-            //     medianLength: String(testCaseBody?.run.medianLength),
-            //     modeLength: String(testCaseBody?.run.modeLength),
-            //     ISPLoading: String(testCaseBody?.run.ISPLoading),
-            //     polyclonal: String(testCaseBody?.run.polyclonal),
-            //     lowQuanlity: String(testCaseBody?.run.lowQuanlity),
-            //     score: String(testCaseBody?.run.score),
-            //     ISPLoadingPic: String(testCaseBody?.run.ISPLoadingPic),
-            //     quanlityPic: String(testCaseBody?.run.quanlityPic),
-            //     lengthPic: String(testCaseBody?.run.lengthPic),
-            // },
+            patientID: String(testCaseBody?.patientID),
+            patientName: String(testCaseBody?.patientName),
+            testName: String(testCaseBody?.testName),
+            avaliable: false,
         });
         console.log(newTestData);
         newTestData
@@ -140,19 +132,57 @@ class testCaseController {
             });
     }
 
-    // addTest(req, res) {
-    //     try {
-    //         const fileData = fs.promises.readFile(req.file.path, 'utf-8');
-    //         const jsonData = JSON.parse(fileData);
-    //         const testCase = new testCaseModel(jsonData);
-    //         testCase.save();
-    //         res.send('File uploaded and saved to database');
-    //         console.log(fileData);
-    //     } catch (error) {
-    //         console.error(err);
-    //         res.status(500).send('Internal Server Error');
-    //     }
-    // }
+    uploadFile(req, res) {
+        const storage = multer.diskStorage({
+            destination: dataDirectory,
+            filename: (req, file, cb) => {
+                cb(null, 'TestFile.gz');
+            },
+        });
+
+        const upload = multer({
+            storage,
+            // Thêm middleware để theo dõi tiến độ upload
+            fileFilter: (req, file, cb) => {
+                cb(null, true);
+            },
+            limits: {
+                // Giới hạn kích thước file
+                fileSize: 1024 * 1024 * 1024 * 1024, // Ví dụ giới hạn 10MB
+            },
+        }).single('file');
+
+        // Thêm middleware để in ra tiến độ upload
+        upload(req, res, (err) => {
+            if (err instanceof multer.MulterError) {
+                // Xử lý lỗi từ multer
+                console.log('Multer Error:', err);
+                res.status(400).json({
+                    error: 'Có lỗi xảy ra khi tải lên tệp tin.',
+                });
+            } else if (err) {
+                // Xử lý lỗi khác
+                console.log('Error:', err);
+                res.status(500).json({
+                    error: 'Có lỗi xảy ra khi tải lên tệp tin.',
+                });
+            } else {
+                // Upload thành công
+                res.send('Tệp tin đã được tải lên thành công!');
+            }
+        });
+    }
+
+    download(req, res) {
+        fileName = req.query.id;
+        const filePath = path.join(dataDirectory, `${fileName}`);
+        res.download(filePath, (err) => {
+            if (err) {
+                console.error('Lỗi khi tải file:', err);
+                res.status(500).send('Lỗi khi tải file.');
+            }
+        });
+    }
 }
 
 module.exports = new testCaseController();
