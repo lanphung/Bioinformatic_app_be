@@ -10,27 +10,25 @@ const path = require('path');
 // Endpoint for uploading a CSV file
 class uploadFile {
     uploadFile(req, res) {
+        const fileName = req.body.patientID;
         const dataDirectory = path.join(__dirname, '../../../data');
         const storage = multer.diskStorage({
             destination: dataDirectory,
             filename: (req, file, cb) => {
-                cb(null, `${file.originalname}`);
+                const fileName = req.body.patientID;
+                cb(null, `${fileName}.gz`);
             },
         });
-
         const upload = multer({
             storage,
-            // Thêm middleware để theo dõi tiến độ upload
             fileFilter: (req, file, cb) => {
                 cb(null, true);
             },
             limits: {
-                // Giới hạn kích thước file
-                fileSize: 1024 * 1024 * 1024 * 1024, // Ví dụ giới hạn 10MB
+                fileSize: 1024 * 1024 * 1024 * 1024,
             },
         }).single('file');
 
-        // Thêm middleware để in ra tiến độ upload
         upload(req, res, (err) => {
             if (err instanceof multer.MulterError) {
                 // Xử lý lỗi từ multer
@@ -47,6 +45,21 @@ class uploadFile {
             } else {
                 // Upload thành công
                 res.send('Tệp tin đã được tải lên thành công!');
+            }
+        });
+    }
+
+    uploadResult(req, res) {
+        const content = require(`./uploads/${req.file.filename}`);
+
+        const newData = new DataModel({ content });
+        newData.save((err, savedData) => {
+            if (err) {
+                console.error(err);
+                res.status(500).send('Internal Server Error');
+            } else {
+                console.log('Data saved:', savedData);
+                res.status(200).send('File uploaded and data saved');
             }
         });
     }
