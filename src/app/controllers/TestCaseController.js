@@ -142,7 +142,7 @@ class testCaseController {
             return new dataTestModel({
                 IDTest: String(testResultBody?.IDTest),
                 Gene: String(testResultBody?.Gene),
-                RS_ID: String(testResultBody?.RS_ID),
+                RS_ID: String(testResultBody?.['RS-ID']),
                 Nucleotide: String(testResultBody?.Nucleotide),
                 Protein: String(testResultBody?.Protein),
                 VariationType: String(testResultBody?.VariationType),
