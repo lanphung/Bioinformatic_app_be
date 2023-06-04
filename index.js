@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const compression= require('compression');
 const app = express();
 const port = process.env.PORT || 3000;
 // const clientURL = 'http://localhost:8000';
@@ -15,6 +16,9 @@ const corsOptions ={
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
+// init middleware
+app.use(morgan('combined'))
+app.use(compression())
 app.use(cors(corsOptions));
 // Add headers before the routes are defined
 app.use(function (req, res, next) {
@@ -40,7 +44,6 @@ db.connect();
 
 route(app);
 
-app.use(morgan('combined'))
 
 app.listen(port, () => {
   console.log(`App is running at http://localhost:${port}`);
