@@ -136,32 +136,36 @@ class testCaseController {
 
     addTestResult(req, res) {
         console.log(req.body);
-        const testResultBody = req.body;
-        const newTestResultData = new dataTestModel({
-            IDTest: String(testResultBody?.IDTest),
-            Gene: String(testResultBody?.Gene),
-            RS_ID: String(testResultBody?.RS_ID),
-            Nucleotide: String(testResultBody?.Nucleotide),
-            Protein: String(testResultBody?.Protein),
-            VariationType: String(testResultBody?.VariationType),
-            VariantLength: String(testResultBody?.VariantLength),
-            Position: String(testResultBody?.Position),
-            DrugResponse: String(testResultBody?.DrugResponse),
-            VariantRate: String(testResultBody?.VariantRate),
-            ReadDepth: String(testResultBody?.ReadDepth),
+        const testResultArray = req.body;
+
+        const newTestResults = testResultArray.map((testResultBody) => {
+            return new dataTestModel({
+                IDTest: String(testResultBody?.IDTest),
+                Gene: String(testResultBody?.Gene),
+                RS_ID: String(testResultBody?.RS_ID),
+                Nucleotide: String(testResultBody?.Nucleotide),
+                Protein: String(testResultBody?.Protein),
+                VariationType: String(testResultBody?.VariationType),
+                VariantLength: String(testResultBody?.VariantLength),
+                Position: String(testResultBody?.Position),
+                DrugResponse: String(testResultBody?.DrugResponse),
+                VariantRate: String(testResultBody?.VariantRate),
+                ReadDepth: String(testResultBody?.ReadDepth),
+            });
         });
-        newTestResultData
-            .save()
-            .then((test) => {
-                console.log('Added new test case to database:', test);
+
+        dataTestModel
+            .insertMany(newTestResults)
+            .then((tests) => {
+                console.log('Added new test cases to the database:', tests);
                 res.status(201).json({
-                    message: 'Test case added successfully',
-                    test,
+                    message: 'Test cases added successfully',
+                    tests,
                 });
             })
             .catch((err) => {
-                console.error('Error adding test case to database:', err);
-                res.status(500).json({ error: 'Failed to add test case' });
+                console.error('Error adding test cases to the database:', err);
+                res.status(500).json({ error: 'Failed to add test cases' });
             });
     }
 
