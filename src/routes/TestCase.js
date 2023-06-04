@@ -9,5 +9,6 @@ router.get('/', testCaseController.findAPage);
 router.delete('/delete/:id', testCaseController.delete);
 router.get('/find/:id', testCaseController.findByID);
 router.post('/add', testCaseController.addTest);
+router.post('/add-result-test', testCaseController.addTestResult);
 
 module.exports = router;
