@@ -11,7 +11,7 @@ const path = require('path');
 class uploadFile {
     uploadFile(req, res) {
         const fileName = req.body.patientID;
-        const dataDirectory = path.join(__dirname, '../../../data');
+        const dataDirectory = path.join(__dirname, '../../../dataInput');
         const storage = multer.diskStorage({
             destination: dataDirectory,
             filename: (req, file, cb) => {
@@ -45,21 +45,6 @@ class uploadFile {
             } else {
                 // Upload thành công
                 res.send('Tệp tin đã được tải lên thành công!');
-            }
-        });
-    }
-
-    uploadResult(req, res) {
-        const content = require(`./uploads/${req.file.filename}`);
-
-        const newData = new DataModel({ content });
-        newData.save((err, savedData) => {
-            if (err) {
-                console.error(err);
-                res.status(500).send('Internal Server Error');
-            } else {
-                console.log('Data saved:', savedData);
-                res.status(200).send('File uploaded and data saved');
             }
         });
     }
