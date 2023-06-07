@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const BreastRecordController = require('../app/controllers/healthRecord/BreastRecordController');
-const ConlorectalRecordController = require('../app/controllers/healthRecord/ConlorectalRecordController');
+const ColorectalRecordController = require('../app/controllers/healthRecord/ColorectalRecordController');
 const LiverRecordController = require('../app/controllers/healthRecord/LiverRecordController');
 const LungRecordController = require('../app/controllers/healthRecord/LungRecordController');
 const ThyroidRecordController = require('../app/controllers/healthRecord/ThyroidRecordController');
@@ -18,11 +18,11 @@ router.post('/breast-record/delete-health-record', BreastRecordController.delete
 router.get('/breast-record/get-all', BreastRecordController.getAll);
 router.post('/breast-record/search', BreastRecordController.search);
 
-router.post('/conlorectal-record/save', ConlorectalRecordController.save);
-router.post('/conlorectal-record/get-health-record', ConlorectalRecordController.getById);
-router.post('/conlorectal-record/delete-health-record', ConlorectalRecordController.deleteById);
-router.get('/conlorectal-record/get-all', ConlorectalRecordController.getAll);
-router.post('/conlorectal-record/search', ConlorectalRecordController.search);
+router.post('/colorectal-record/save', ColorectalRecordController.save);
+router.post('/colorectal-record/get-health-record', ColorectalRecordController.getById);
+router.post('/colorectal-record/delete-health-record', ColorectalRecordController.deleteById);
+router.get('/colorectal-record/get-all', ColorectalRecordController.getAll);
+router.post('/colorectal-record/search', ColorectalRecordController.search);
 
 router.post('/liver-record/save', LiverRecordController.save);
 router.post('/liver-record/get-health-record', LiverRecordController.getById);

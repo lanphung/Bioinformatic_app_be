@@ -19,4 +19,4 @@ const ConlorectalRecordModel = new Schema({
     updateAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('conlorectal_record', ConlorectalRecordModel);
+module.exports = mongoose.model('colorectal_record', ConlorectalRecordModel);

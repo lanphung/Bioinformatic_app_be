@@ -88,7 +88,7 @@ class LungRecordController {
                 showType: 2,
             });
         } catch (error) {
-
+            console.log(error);
         }
     };
     search = async (req, res) => {
