@@ -1,4 +1,5 @@
 const testCaseModel = require('../models/TestCaseModel');
+const dataTestModel = require('../models/DataTestModel');
 const express = require('express');
 const app = express();
 
@@ -114,6 +115,7 @@ class testCaseController {
             patientID: String(testCaseBody?.patientID),
             patientName: String(testCaseBody?.patientName),
             testName: String(testCaseBody?.testName),
+            primaryTissue: String(testCaseBody?.primaryTissue),
             avaliable: false,
         });
         console.log(newTestData);
@@ -129,6 +131,41 @@ class testCaseController {
             .catch((err) => {
                 console.error('Error adding test case to database:', err);
                 res.status(500).json({ error: 'Failed to add test case' });
+            });
+    }
+
+    addTestResult(req, res) {
+        console.log(req.body);
+        const testResultArray = req.body;
+
+        const newTestResults = testResultArray.map((testResultBody) => {
+            return new dataTestModel({
+                IDTest: String(testResultBody?.IDTest),
+                Gene: String(testResultBody?.Gene),
+                RS_ID: String(testResultBody?.['RS-ID']),
+                Nucleotide: String(testResultBody?.Nucleotide),
+                Protein: String(testResultBody?.Protein),
+                VariationType: String(testResultBody?.VariationType),
+                VariantLength: String(testResultBody?.VariantLength),
+                Position: String(testResultBody?.Position),
+                DrugResponse: String(testResultBody?.DrugResponse),
+                VariantRate: String(testResultBody?.VariantRate),
+                ReadDepth: String(testResultBody?.ReadDepth),
+            });
+        });
+
+        dataTestModel
+            .insertMany(newTestResults)
+            .then((tests) => {
+                console.log('Added new test cases to the database:', tests);
+                res.status(201).json({
+                    message: 'Test cases added successfully',
+                    tests,
+                });
+            })
+            .catch((err) => {
+                console.error('Error adding test cases to the database:', err);
+                res.status(500).json({ error: 'Failed to add test cases' });
             });
     }
 
