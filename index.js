@@ -2,8 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const port = process.env.PORT || 3000;
-// const clientURL = 'http://localhost:8000';
-const clientURL =  'http://103.124.93.57';
+const clientURL = process.env.CLIENT_URL ||'http://localhost:8000';
+// const clientURL =  'http://103.124.93.57';
 
 const route = require('./src/routes');
 const db = require('./src/config/db');
