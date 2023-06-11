@@ -1,6 +1,7 @@
 const testCaseModel = require('../models/TestCaseModel');
 const dataTestModel = require('../models/DataTestModel');
 const express = require('express');
+const fs = require('fs');
 const app = express();
 
 app.use(express.json());
@@ -9,13 +10,24 @@ app.use(express.urlencoded({ extended: true }));
 const multer = require('multer');
 const path = require('path');
 
-const dataDirectory = path.join(__dirname, '../../../data/');
+const dataDirectory = path.join(__dirname, '../../../dataInput/');
 
 class testCaseController {
     findAll(req, res) {
         testCaseModel.find({}, function (err, testCaseModel) {
             if (!err) {
                 res.json(testCaseModel);
+            } else {
+                res.status(500).json({ error: 'Error!!!' });
+            }
+        });
+    }
+
+    findAllTest(req, res) {
+        dataTestModel.find({}, function (err, data) {
+            if (!err) {
+                const IDTest = data.map((item) => item.IDTest);
+                res.json(IDTest);
             } else {
                 res.status(500).json({ error: 'Error!!!' });
             }
@@ -52,42 +64,6 @@ class testCaseController {
         });
     }
 
-    // findAPage = async (req, res) => {
-    //     try {
-    //       const page = parseInt(req.query.page) || 1;
-    //       const limit = parseInt(req.query.limit) || 10;
-    //       const skip = (page - 1) * limit;
-
-    //       const count = await testCaseModel.countDocuments({});
-
-    //       const totalPages = Math.ceil(count / limit);
-
-    //       const records = await testCaseModel
-    //         .find({})
-    //         .select('patients run sams _id')
-    //         .skip(skip)
-    //         .limit(limit)
-    //         .lean();
-
-    //       const mappedRecords = records.map((record) => ({
-    //         runID: record.run.id,
-    //         _id: record._id,
-    //         name: record.patients,
-    //         samples: record.sams,
-    //       }));
-
-    //       return res.status(200).json({
-    //         success: true,
-    //         data: mappedRecords,
-    //         totalPages: totalPages,
-    //         currentPage: page,
-    //       });
-    //     } catch (error) {
-    //       console.error(error);
-    //       return res.status(500).json({ error: 'Error!!!' });
-    //     }
-    //   };
-
     findByID(req, res) {
         testCaseModel.findById(req.params.id, (err, item) => {
             if (err) {
@@ -97,6 +73,20 @@ class testCaseController {
                 res.status(404).send('Item not found');
             } else {
                 res.send(item);
+            }
+        });
+    }
+
+    findByIDTest(req, res) {
+        const IDTest = req.params.id;
+        dataTestModel.find({ IDTest }, (err, items) => {
+            if (err) {
+                console.log(err);
+                res.status(500).send(err);
+            } else if (items.length === 0) {
+                res.status(404).send('No items found');
+            } else {
+                res.json(items);
             }
         });
     }
@@ -217,6 +207,18 @@ class testCaseController {
             if (err) {
                 console.error('Lỗi khi tải file:', err);
                 res.status(500).send('Lỗi khi tải file.');
+            }
+        });
+    }
+
+    getFileName(req, res) {
+        fs.readdir(dataDirectory, (err, files) => {
+            if (err) {
+                console.log('Error reading directory:', err);
+                res.status(500).json({ error: 'Error reading directory' });
+            } else {
+                const fileNames = files.map((file) => path.parse(file).name);
+                res.json(fileNames);
             }
         });
     }

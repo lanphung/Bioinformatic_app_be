@@ -1,10 +1,10 @@
 const express = require('express');
 const morgan = require('morgan');
 const compression= require('compression');
+require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 3000;
-const clientURL = process.env.CLIENT_URL ||'http://localhost:8000';
-// const clientURL =  'http://103.124.93.57';
+const clientURL = process.env.CLIENT_URL;
 
 const route = require('./src/routes');
 const db = require('./src/config/db');
@@ -46,7 +46,6 @@ route(app);
 
 
 app.listen(port, () => {
-  console.log(`App is running at http://localhost:${port}`);
+  console.log(`App is running at ${clientURL}`);
   console.log(clientURL);
-  console.log(process.env.CLIENT_URL);
 })

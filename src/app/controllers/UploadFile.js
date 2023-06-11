@@ -7,7 +7,6 @@ app.use(express.urlencoded({ extended: true }));
 const multer = require('multer');
 const path = require('path');
 
-// Endpoint for uploading a CSV file
 class uploadFile {
     uploadFile(req, res) {
         const fileName = req.body.patientID;
