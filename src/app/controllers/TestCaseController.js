@@ -65,7 +65,8 @@ class testCaseController {
     }
 
     findByID(req, res) {
-        testCaseModel.findById(req.params.id, (err, item) => {
+        const patientID = req.params.id;
+        testCaseModel.find({ patientID }, (err, item) => {
             if (err) {
                 console.log(err);
                 res.status(500).send(err);

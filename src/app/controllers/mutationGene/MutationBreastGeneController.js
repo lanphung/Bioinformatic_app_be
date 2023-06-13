@@ -35,7 +35,7 @@ class mutationBreastGeneController {
                     const totalPages = Math.ceil(count / limit);
 
                     res.json({
-                        mutationBreast: GeneModels,
+                        mutationBreastGeneModels: mutationBreastGeneModels,
                         currentPage: page,
                         totalPages,
                     });
