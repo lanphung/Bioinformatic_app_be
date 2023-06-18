@@ -60,7 +60,7 @@ const _get_evi_mixed = (jsonObject, scope) => {
     for (let it of cond) {
         const data = require(`../../../../data/dataDrug/${it}_${scope}_BE.json`);
         const mutInfo = jsonObject.mutations;
-
+    //testing
         for (const item in mutInfo) {
             let pr = mutInfo[item]['Protein']?.split('p.')[1];
             if (pr !== undefined) {
