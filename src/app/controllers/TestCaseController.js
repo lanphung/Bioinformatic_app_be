@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 const multer = require('multer');
 const path = require('path');
 
-const dataDirectory = path.join(__dirname, '../../../dataInput/');
+const dataDirectory = path.join(__dirname, '../../../data/dataInput/');
 
 class testCaseController {
     findAll(req, res) {
@@ -129,22 +129,34 @@ class testCaseController {
         console.log(req.body);
         const testResultArray = req.body;
 
-        const newTestResults = testResultArray.map((testResultBody) => {
-            return new dataTestModel({
-                IDTest: String(testResultBody?.IDTest),
-                Gene: String(testResultBody?.Gene),
-                RS_ID: String(testResultBody?.['RS-ID']),
-                Nucleotide: String(testResultBody?.Nucleotide),
-                Protein: String(testResultBody?.Protein),
-                VariationType: String(testResultBody?.VariationType),
-                VariantLength: String(testResultBody?.VariantLength),
-                Position: String(testResultBody?.Position),
-                DrugResponse: String(testResultBody?.DrugResponse),
-                VariantRate: String(testResultBody?.VariantRate),
-                ReadDepth: String(testResultBody?.ReadDepth),
-            });
-        });
+        const newTestResults = testResultArray.mutations.map(
+            (testResultBody) => {
+                return {
+                    IDTest: String(testResultArray?.IDTest),
+                    tissue: String(testResultArray?.tissue),
+                    mutations: [
+                        {
+                            Gene: String(testResultBody?.Gene),
+                            'RS-ID': String(testResultBody['RS-ID']),
+                            Nucleotide: String(testResultBody?.Nucleotide),
+                            Protein: String(testResultBody?.Protein),
+                            VariationType: String(
+                                testResultBody?.VariationType,
+                            ),
+                            VariantLength: String(
+                                testResultBody?.VariantLength,
+                            ),
+                            Position: String(testResultBody?.Position),
+                            DrugResponse: String(testResultBody?.DrugResponse),
+                            VariantRate: String(testResultBody?.VariantRate),
+                            ReadDepth: String(testResultBody?.ReadDepth),
+                        },
+                    ],
+                };
+            },
+        );
 
+        // Insert the new test results into the database
         dataTestModel
             .insertMany(newTestResults)
             .then((tests) => {

@@ -1,3 +1,5 @@
+const { _get_evi_mixed, _get_evi } = require('./sharedFunction/getEvidence');
+const { json } = require('express');
 const drugInformationModel = require('../models/DrugInformationModel');
 
 class drugInformationController {
@@ -105,6 +107,35 @@ class drugInformationController {
             return res.status(500).json({ error: 'Error!!!' });
         }
     };
+
+    getEvidenceAsiaMixed(req, res) {
+        const jsonObject = req.body;
+        const scope = 'asia';
+        const dataPrediction = _get_evi_mixed(jsonObject, scope);
+        return res.status(200).json({
+            data: dataPrediction,
+            success: true,
+        });
+    }
+    getEvidenceWorldMixed(req, res) {
+        const jsonObject = req.body;
+        const scope = 'world';
+        const dataPrediction = _get_evi_mixed(jsonObject, scope);
+        return res.status(200).json({
+            data: dataPrediction,
+            success: true,
+        });
+    }
+    getEvidence(req, res) {
+        const condition = req.body.condition;
+        const gene = req.body.gene;
+        const protein = req.body.protein;
+        const dataPrediction = _get_evi(condition, gene, protein);
+        return res.status(200).json({
+            data: dataPrediction,
+            success: true,
+        });
+    }
 }
 
 module.exports = new drugInformationController();
